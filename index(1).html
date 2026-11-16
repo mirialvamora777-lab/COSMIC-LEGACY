@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#070a12" />
+  <meta name="description" content="Cosmic Legacy: explora las historias que dejaron las misiones espaciales." />
+
+  <title>COSMIC LEGACY — Museo espacial</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="sistema-solar.css?v=final3" />
+  <link rel="stylesheet" href="explorador-planetas.css?v=archive6" />
+  <link rel="stylesheet" href="legado-experiencia.css" />
+  <link rel="stylesheet" href="anatomia-espacial.css" />
+  <link rel="stylesheet" href="legacy-protocol-panorama-v2.css" />
+  <link rel="stylesheet" href="integracion.css" />
+  <link rel="stylesheet" href="fusion.css?v=reset1" />
+  <link rel="stylesheet" href="echo.css?v=1" />
+  <link rel="stylesheet" href="creditos-recursos.css?v=final3" />
+  <meta name="ai-assistance" content="AI-assisted code, educational text, translation and identified reconstructions; ChatGPT used for compliance review, documentation and the identified AI recreations; additional tools, if any, must be disclosed.">
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.1.0/model-viewer.min.js"></script>
+  <link rel="stylesheet" href="sistema-solar-fullscreen.css" />
+  <link rel="stylesheet" href="cosmic-education.css" />
+  <link rel="stylesheet" href="responsive-center.css" />
+</head>
+
+<body>
+
+  <div class="space-noise" aria-hidden="true"></div>
+  <canvas id="stars" aria-hidden="true"></canvas>
+
+  <div class="distant-nebula nebula-one" aria-hidden="true"></div>
+  <div class="distant-nebula nebula-two" aria-hidden="true"></div>
+
+  <div class="sun" aria-hidden="true">
+    <span></span>
+  </div>
+
+  <div class="asteroid-belt" aria-hidden="true"></div>
+
+  <header class="topbar">
+
+    <a class="brand" href="#inicio" data-lc-owned aria-label="COSMIC LEGACY">
+      <span class="brand-mark">✦</span>
+      <span>COSMIC <b>LEGACY</b></span>
+    </a>
+
+    <nav aria-label="Navegación principal">
+      <a class="active" href="#inicio">INICIO</a>
+      <a href="#sistema-solar" data-es="SISTEMA SOLAR" data-en="SOLAR SYSTEM">SISTEMA SOLAR</a>
+      <a href="#vehiculos" data-es="EQUIPOS" data-en="SPACECRAFT">EQUIPOS</a>
+      <a href="#explorar">CUERPOS CELESTES</a>
+      <a href="#echo-protocol" data-es="LEGADO" data-en="LEGACY">LEGADO</a>
+    </nav>
+
+    <span class="edition">
+      MUSEO VIRTUAL <i>·</i> 001
+    </span>
+
+  </header>
+
+  <main>
+
+    <section class="hero" id="inicio">
+
+      <div class="hero-copy">
+
+        <p class="eyebrow">
+          <span></span>
+          UN VIAJE POR NUESTRO VECINDARIO CÓSMICO
+        </p>
+
+        <h1 data-lc-owned>
+          COSMIC<br>
+          <em>LEGACY</em>
+        </h1>
+
+        <p class="tagline">
+          Las misiones terminan, pero sus descubrimientos permanecen.
+        </p>
+
+        <div class="fusion-hero-actions"><a class="start-button" href="#sistema-solar">
+          Comenzar exploración <span>↗</span>
+        </a><a class="fusion-secondary" href="#vehiculos" data-es="Explorar las siete naves" data-en="Explore all seven spacecraft">Explorar las siete naves</a><a class="fusion-secondary" href="#echo-protocol" data-es="Descubrir el legado" data-en="Discover the legacy">Descubrir el legado</a></div>
+        <div class="fusion-hero-stats" data-lc-owned><div><strong>7</strong><span data-es="Naves" data-en="Spacecraft">Naves</span></div><div><strong>44</strong><span data-es="Componentes" data-en="Components">Componentes</span></div><div><strong>21</strong><span data-es="Preguntas" data-en="Questions">Preguntas</span></div></div>
+
+      </div>
+
+      <figure class="lc-hero-photo" data-lc-owned><img src="img/astronauta-eagle.jpg" alt="Astronauta junto al módulo lunar Eagle" data-es-alt="Astronauta junto al módulo lunar Eagle" data-en-alt="Astronaut beside the Eagle lunar module"><figcaption data-es="Apollo 11 · Eagle · ver créditos" data-en="Apollo 11 · Eagle · see credits"></figcaption></figure>
+      <div class="hero-note">
+        <span class="note-line"></span>
+        <span>01 / 03</span><br>
+        SELECCIONA UN<br>
+        DESTINO
+      </div>
+
+      <div class="orbit orbit-large" aria-hidden="true"></div>
+      <div class="orbit orbit-small" aria-hidden="true"></div>
+
+    </section>
+
+    <!-- VISOR DE MODELOS 3D. Sin paneles de información ni imágenes 2D. -->
+    <section class="vehicles-section lc-teams" id="vehiculos" aria-label="Modelos 3D de naves y vehículos">
+      <div class="section-heading"><div>
+        <p class="eyebrow" data-es="NUESTROS EQUIPOS" data-en="OUR TEAMS">NUESTROS EQUIPOS</p>
+        <h2 data-es="Siete misiones. <em>Siete historias.</em>" data-en="Seven missions. <em>Seven stories.</em>">Siete misiones. <em>Siete historias.</em></h2>
+      </div></div>
+      <div class="planet-grid vehicle-grid">
+        <button class="planet-card vehicle-card" type="button" data-model="opportunity" aria-label="Abrir rover Opportunity en 3D">
+          <div class="planet-art"><model-viewer class="preview-model nasa-remote" src="models/opportunity.glb" alt="Modelo 3D de Opportunity — ver créditos" auto-rotate rotation-per-second="9deg" interaction-prompt="none" loading="lazy" environment-image="neutral" exposure="1.24" shadow-intensity="0" camera-orbit="26deg 68deg auto" camera-target="auto auto auto"></model-viewer></div>
+          <div class="planet-meta"><span>ROVER</span><span class="arrow">↗</span></div>
+          <h3>Opportunity</h3>
+          <p class="lc-card-brief" data-lc-owned><span lang="es">Marte · Buscó huellas de agua antigua. Una tormenta de polvo puso fin a sus comunicaciones.</span><span lang="en">Mars · Searched for evidence of ancient water. A dust storm ended its communications.</span></p>
+          <span class="explore-link">VER EN 360° <b>→</b></span>
+        </button>
+        <button class="planet-card vehicle-card" type="button" data-model="cassini" aria-label="Abrir nave Cassini en 3D">
+          <div class="planet-art"><model-viewer class="preview-model nasa-remote" src="models/cassini.glb" alt="Modelo 3D de Cassini — ver créditos" auto-rotate rotation-per-second="9deg" interaction-prompt="none" loading="lazy" environment-image="neutral" exposure="1.24" shadow-intensity="0" camera-orbit="26deg 68deg auto" camera-target="auto auto auto"></model-viewer></div>
+          <div class="planet-meta"><span>SONDA ESPACIAL</span><span class="arrow">↗</span></div>
+          <h3>Cassini</h3>
+          <p class="lc-card-brief" data-lc-owned><span lang="es">Saturno · Estudió sus anillos y lunas; su final fue planificado para proteger otros mundos.</span><span lang="en">Saturn · Studied its rings and moons; its finale was planned to protect other worlds.</span></p>
+          <span class="explore-link">VER EN 360° <b>→</b></span>
+        </button>
+        <button class="planet-card vehicle-card" type="button" data-model="near-shoemaker" aria-label="Abrir NEAR Shoemaker en 3D">
+          <div class="planet-art"><model-viewer class="preview-model nasa-remote" src="models/near-shoemaker.glb" alt="Modelo 3D de NEAR Shoemaker — ver créditos" auto-rotate rotation-per-second="9deg" interaction-prompt="none" loading="lazy" environment-image="neutral" exposure="1.24" shadow-intensity="0" camera-orbit="28deg 65deg auto" camera-target="auto auto auto"></model-viewer></div>
+          <div class="planet-meta"><span>SONDA ESPACIAL</span><span class="arrow">↗</span></div>
+          <h3>NEAR Shoemaker</h3>
+          <p class="lc-card-brief" data-lc-owned><span lang="es">Eros · Orbitó y aterrizó en un asteroide para investigar su composición y su historia.</span><span lang="en">Eros · Orbited and landed on an asteroid to investigate its composition and history.</span></p>
+          <span class="explore-link">VER EN 360° <b>→</b></span>
+        </button>
+        <button class="planet-card vehicle-card" type="button" data-model="pioneer-10" aria-label="Abrir Pioneer 10 en 3D">
+          <div class="planet-art"><model-viewer class="preview-model nasa-remote" src="models/pioneer-10.glb" alt="Modelo 3D de Pioneer 10 — ver créditos" auto-rotate rotation-per-second="9deg" interaction-prompt="none" loading="lazy" environment-image="neutral" exposure="1.24" shadow-intensity="0" camera-orbit="200deg 72deg auto" camera-target="auto auto auto"></model-viewer></div>
+          <div class="planet-meta"><span>SONDA ESPACIAL</span><span class="arrow">↗</span></div>
+          <h3>Pioneer 10</h3>
+          <p class="lc-card-brief" data-lc-owned><span lang="es">Júpiter · Abrió el camino a la exploración de los planetas gigantes. Hoy continúa en trayectoria de escape.</span><span lang="en">Jupiter · Pioneered exploration of the giant planets. It continues on an escape trajectory.</span></p>
+          <span class="explore-link">VER EN 360° <b>→</b></span>
+        </button>
+        <button class="planet-card vehicle-card" type="button" data-model="ingenuity" aria-label="Abrir Ingenuity en 3D">
+          <div class="planet-art"><model-viewer class="preview-model nasa-remote" src="models/ingenuity.glb" alt="Modelo 3D de Ingenuity — ver créditos" auto-rotate rotation-per-second="9deg" interaction-prompt="none" loading="lazy" environment-image="neutral" exposure="1.24" shadow-intensity="0" camera-orbit="28deg 65deg auto" camera-target="auto auto auto"></model-viewer></div>
+          <div class="planet-meta"><span>HELICÓPTERO MARCIANO</span><span class="arrow">↗</span></div>
+          <h3>Ingenuity</h3>
+          <p class="lc-card-brief" data-lc-owned><span lang="es">Marte · Demostró que el vuelo propulsado y controlado era posible en otro planeta.</span><span lang="en">Mars · Demonstrated that powered, controlled flight was possible on another planet.</span></p>
+          <span class="explore-link">VER EN 360° <b>→</b></span>
+        </button>
+        <button class="planet-card vehicle-card" type="button" data-model="apollo-11" aria-label="Abrir Apollo 11 Eagle en 3D">
+          <div class="planet-art"><model-viewer class="preview-model nasa-remote" src="models/apollo-11.glb" alt="Recreación educativa 3D del módulo lunar Eagle" auto-rotate rotation-per-second="9deg" interaction-prompt="none" loading="lazy" environment-image="neutral" exposure="1.24" shadow-intensity="0" camera-orbit="28deg 65deg auto" camera-target="auto auto auto"></model-viewer><span class="echo-ai-label" data-es="RECREACIÓN GENERADA CON IA" data-en="AI-GENERATED RECREATION">RECREACIÓN GENERADA CON IA</span></div>
+          <div class="planet-meta"><span>MÓDULO LUNAR · RECREACIÓN</span><span class="arrow">↗</span></div>
+          <h3>Apollo 11 · Eagle</h3>
+          <p class="lc-card-brief" data-lc-owned><span lang="es">Luna · Eagle llevó a los primeros seres humanos a la superficie lunar. Su etapa de descenso quedó allí.</span><span lang="en">Moon · Eagle carried the first humans to the lunar surface. Its descent stage remained there.</span></p>
+          <span class="explore-link">VER EN 360° <b>→</b></span>
+        </button>
+        <button class="planet-card vehicle-card" type="button" data-model="surveyor-3" aria-label="Abrir Surveyor 3 en 3D">
+          <div class="planet-art"><model-viewer class="preview-model nasa-remote" src="models/surveyor-3.glb" alt="Recreación educativa 3D de Surveyor 3" auto-rotate rotation-per-second="9deg" interaction-prompt="none" loading="lazy" environment-image="neutral" exposure="1.24" shadow-intensity="0" camera-orbit="28deg 65deg auto" camera-target="auto auto auto"></model-viewer><span class="echo-ai-label" data-es="RECREACIÓN GENERADA CON IA" data-en="AI-GENERATED RECREATION">RECREACIÓN GENERADA CON IA</span></div>
+          <div class="planet-meta"><span>SONDA LUNAR · RECREACIÓN</span><span class="arrow">↗</span></div>
+          <h3>Surveyor 3</h3>
+          <p class="lc-card-brief" data-lc-owned><span lang="es">Luna · Examinó el suelo lunar antes de las misiones tripuladas del programa Apollo.</span><span lang="en">Moon · Examined lunar soil ahead of the crewed Apollo missions.</span></p>
+          <span class="explore-link">VER EN 360° <b>→</b></span>
+        </button>
+      </div>
+    </section>
+
+    <!-- INICIO DE NUEVA SECCIÓN: SISTEMA SOLAR 3D. No modifica ninguna tarjeta existente. -->
+    <section class="solar3d-section" id="sistema-solar" aria-label="Sistema solar tridimensional interactivo">
+      <div class="solar3d-head">
+        <div>
+          <p class="eyebrow">EL UNIVERSO EN MOVIMIENTO</p>
+          <h2>Sistema solar <em>interactivo.</em></h2>
+        </div>
+        <p class="solar3d-sub">Recorre los ocho planetas en tres dimensiones. Gira la cámara, acércate y elige tu próximo destino.</p>
+      </div>
+      <div class="solar3d-frame">
+        <div class="solar3d-stage" id="solar3d-escena">
+          <canvas id="solar3d-lienzo" aria-label="Sistema solar 3D: arrastra para girar la cámara, usa rueda del mouse para zoom y los botones de planeta para elegir destino"></canvas>
+          <div class="solar3d-toolbar">
+            <button type="button" id="solar3d-reset">↶ VISTA GENERAL</button>
+            <button type="button" id="solar3d-pause" aria-pressed="false">PAUSAR</button>
+            <button type="button" id="solar3d-speed">Velocidad ×1</button>
+            <span class="solar3d-selected" id="solar3d-selected">VISTA GENERAL</span>
+            <a id="solar3d-source" href="#" target="_blank" rel="noopener noreferrer" hidden>MODELO NASA ↗</a>
+          </div>
+          <div class="solar3d-status" id="solar3d-estado" role="status"></div>
+          <div class="solar3d-bottom"><span class="solar3d-hint" data-es="ARRASTRA PARA GIRAR · RUEDA PARA ZOOM · SELECCIONA UN PLANETA" data-en="DRAG TO ROTATE · SCROLL TO ZOOM · SELECT A PLANET">ARRASTRA PARA GIRAR · RUEDA PARA ZOOM · SELECCIONA UN PLANETA</span></div>
+        </div>
+        <p class="lc-map-hint" data-es="Selecciona un planeta y explora los equipos que fueron enviados." data-en="Select a planet and explore the teams that were sent there.">Selecciona un planeta y explora los equipos que fueron enviados.</p>
+        <div class="solar3d-planets" aria-label="Seleccionar planeta en el sistema solar">
+          <button type="button" data-solar-planet="mercurio">Mercurio</button>
+          <button type="button" data-solar-planet="venus">Venus</button>
+          <button type="button" data-solar-planet="tierra">Tierra</button>
+          <button type="button" data-solar-planet="luna" data-es="☾ Luna" data-en="☾ Moon">☾ Luna</button>
+          <button type="button" data-solar-planet="marte">Marte</button>
+          <button type="button" data-solar-planet="jupiter">Júpiter</button>
+          <button type="button" data-solar-planet="saturno">Saturno</button>
+          <button type="button" data-solar-planet="urano">Urano</button>
+          <button type="button" data-solar-planet="neptuno">Neptuno</button>
+        </div>
+      </div>
+      <p class="solar3d-disclaimer">Visualización artística 3D · tamaños, distancias y velocidades no están a escala.</p>
+    </section>
+    <!-- FIN DE NUEVA SECCIÓN: SISTEMA SOLAR 3D -->
+
+    <section class="lc-learning-route lc-bilingual" data-lc-owned aria-labelledby="lc-route-title"><header><p class="lc-editorial-kicker"><span lang="es">GUÍA DE EXPLORACIÓN</span><span lang="en">EXPLORATION GUIDE</span></p><h2 id="lc-route-title"><span lang="es">De la curiosidad al descubrimiento</span><span lang="en">From curiosity to discovery</span></h2><p><span lang="es">Tres pasos para convertir tu visita en una experiencia de aprendizaje: observa, investiga y explica qué permanece cuando termina una misión.</span><span lang="en">Three steps to turn your visit into a learning experience: observe, investigate and explain what remains when a mission ends.</span></p></header><div class="lc-route-grid"><article><span class="lc-route-number" aria-hidden="true">01</span><h3><span lang="es">Observa el destino</span><span lang="en">Observe the destination</span></h3><p><span lang="es">Ubica el planeta o la Luna y relaciona sus condiciones con los equipos enviados.</span><span lang="en">Locate the planet or Moon and connect its conditions with the spacecraft sent there.</span></p><a href="#sistema-solar"><span lang="es">Ir al sistema solar</span><span lang="en">Go to the solar system</span> <span aria-hidden="true">↗</span></a></article><article><span class="lc-route-number" aria-hidden="true">02</span><h3><span lang="es">Investiga la tecnología</span><span lang="en">Investigate the technology</span></h3><p><span lang="es">Gira las naves en 3D, selecciona sus puntos interactivos y descubre la función de cada componente.</span><span lang="en">Rotate spacecraft in 3D, select interactive hotspots and discover what each component does.</span></p><a href="#vehiculos"><span lang="es">Explorar las naves</span><span lang="en">Explore spacecraft</span> <span aria-hidden="true">↗</span></a></article><article><span class="lc-route-number" aria-hidden="true">03</span><h3><span lang="es">Reconstruye el legado</span><span lang="en">Reconstruct the legacy</span></h3><p><span lang="es">Lee las historias, responde las preguntas y distingue las evidencias reales de las simulaciones educativas.</span><span lang="en">Read the stories, answer questions and distinguish real evidence from educational simulations.</span></p><a href="#echo-protocol"><span lang="es">Iniciar Echo Protocol</span><span lang="en">Start Echo Protocol</span> <span aria-hidden="true">↗</span></a></article></div><p class="lc-route-question"><span lang="es">Pregunta para el aula: ¿qué evidencia científica conservarías de una misión y por qué? Usa los instrumentos, la historia y las fuentes del museo para justificar tu respuesta.</span><span lang="en">Classroom question: what scientific evidence from a mission would you preserve, and why? Use the museum’s instruments, mission history and sources to support your answer.</span></p></section>
+    <section class="destinations" id="explorar">
+
+      <div class="section-heading">
+
+        <div>
+          <p class="eyebrow">PRIMERA PARADA</p>
+
+          <h2>
+            Un sistema.<br>
+            <em>Infinitas historias.</em>
+          </h2>
+        </div>
+
+        <p class="section-description">
+          Ocho planetas y una Luna por descubrir.
+          Elige un cuerpo celeste para comenzar tu recorrido.
+        </p>
+
+      </div>
+
+      <div class="planet-grid">
+
+        <!-- Mercurio · modelo educativo con la textura local del sistema solar -->
+        <a class="planet-card" href="#explorar" data-planet="mercurio" aria-label="Explorar Mercurio">
+          <div class="planet-art"><model-viewer class="preview-model" src="models/mercurio.glb" alt="Mercurio, modelo educativo" auto-rotate rotation-per-second="10deg" interaction-prompt="none" loading="lazy" environment-image="neutral" exposure="1.08" shadow-intensity="0" camera-orbit="25deg 75deg auto"></model-viewer></div>
+          <div class="planet-meta"><span data-es="PLANETA ROCOSO" data-en="ROCKY PLANET">PLANETA ROCOSO</span><span class="arrow">↗</span></div>
+          <h3 data-es="Mercurio" data-en="Mercury">Mercurio</h3>
+          <p class="lc-card-brief" data-lc-owned><span lang="es">El mundo más cercano al Sol. MESSENGER cartografió su superficie y estudió su campo magnético.</span><span lang="en">The closest world to the Sun. MESSENGER mapped its surface and studied its magnetic field.</span></p>
+          <span class="explore-link" data-es="EXPLORAR CUERPO →" data-en="EXPLORE BODY →">EXPLORAR CUERPO →</span>
+        </a>
+
+        <!-- LUNA -->
+
+        <a class="planet-card moon-card"
+           href="#explorar"
+           data-planet="luna"
+           aria-label="Explorar la Luna">
+
+          <div class="planet-art">
+            <model-viewer class="preview-model" src="models/luna.glb" alt="Modelo tridimensional de luna" auto-rotate rotation-per-second="10deg" interaction-prompt="none" loading="lazy" environment-image="neutral" exposure="1.08" shadow-intensity="0" camera-orbit="25deg 75deg auto"></model-viewer>
+          </div>
+
+          <div class="planet-meta">
+            <span>01 — SATÉLITE NATURAL</span>
+            <span class="arrow">↗</span>
+          </div>
+
+          <h3>La Luna</h3>
+          <p class="lc-card-brief" data-lc-owned><span lang="es">Un archivo de impactos y huellas humanas. Surveyor 3 estudió el suelo antes de la llegada de Apollo.</span><span lang="en">A record of impacts and human footprints. Surveyor 3 studied its soil before Apollo arrived.</span></p>
+          <span class="explore-link">
+            EXPLORAR CUERPO <b>→</b>
+          </span>
+
+        </a>
+
+        <!-- TIERRA -->
+
+        <a class="planet-card earth-card"
+           href="#explorar"
+           data-planet="tierra"
+           aria-label="Explorar la Tierra">
+
+          <div class="planet-art">
+            <model-viewer class="preview-model" src="models/tierra.glb" alt="Tierra tridimensional" auto-rotate rotation-per-second="10deg" interaction-prompt="none" loading="lazy" environment-image="neutral" exposure="1.08" shadow-intensity="0" camera-orbit="25deg 75deg auto"></model-viewer>
+          </div>
+
+          <div class="planet-meta">
+            <span>02 — PLANETA ROCOSO</span>
+            <span class="arrow">↗</span>
+          </div>
+
+          <h3>La Tierra</h3>
+          <p class="lc-card-brief" data-lc-owned><span lang="es">Nuestro hogar visto desde la inmensidad. Los observatorios espaciales permiten estudiar el universo desde fuera de la atmósfera.</span><span lang="en">Our home seen from the vastness of space. Space observatories study the universe from beyond the atmosphere.</span></p>
+          <span class="explore-link">
+            EXPLORAR CUERPO <b>→</b>
+          </span>
+
+        </a>
+
+        <!-- MARTE -->
+
+        <a class="planet-card mars-card"
+           href="#explorar"
+           data-planet="marte"
+           aria-label="Explorar Marte">
+
+          <div class="planet-art">
+            <model-viewer class="preview-model" src="models/marte.glb" alt="Modelo tridimensional de marte" auto-rotate rotation-per-second="10deg" interaction-prompt="none" loading="lazy" environment-image="neutral" exposure="1.08" shadow-intensity="0" camera-orbit="25deg 75deg auto"></model-viewer>
+          </div>
+
+          <div class="planet-meta">
+            <span>03 — PLANETA ROCOSO</span>
+            <span class="arrow">↗</span>
+          </div>
+
+          <h3>Marte</h3>
+          <p class="lc-card-brief" data-lc-owned><span lang="es">El planeta que seguimos intentando comprender. Opportunity encontró evidencias de ambientes modificados por agua.</span><span lang="en">The planet we are still trying to understand. Opportunity found evidence of environments altered by water.</span></p>
+          <span class="explore-link">
+            EXPLORAR CUERPO <b>→</b>
+          </span>
+
+        </a>
+
+
+        <!-- SATURNO / MODELO REAL 3D -->
+        <a class="planet-card saturn-card" href="#explorar" data-planet="saturno" aria-label="Explorar Saturno">
+          <div class="planet-art">
+            <model-viewer class="preview-model" src="models/saturno.glb" alt="Modelo tridimensional de Saturno"
+              auto-rotate rotation-per-second="8deg" interaction-prompt="none" loading="lazy"
+              environment-image="neutral" exposure="1.15" camera-orbit="15deg 67deg auto"></model-viewer>
+          </div>
+          <div class="planet-meta"><span>04 — GIGANTE GASEOSO</span><span class="arrow">↗</span></div>
+          <h3>Saturno</h3>
+          <p class="lc-card-brief" data-lc-owned><span lang="es">Un mundo de anillos de hielo y roca. Cassini estudió el planeta y sus lunas, entre ellas Titán y Encélado.</span><span lang="en">A world of ice and rock rings. Cassini studied the planet and moons including Titan and Enceladus.</span></p>
+          <span class="explore-link">EXPLORAR CUERPO <b>→</b></span>
+        </a>
+
+<!-- VENUS -->
+<a class="planet-card" href="#explorar"
+   data-planet="venus">
+  <div class="planet-art">
+    <model-viewer class="preview-model"
+      src="models/venus.glb"
+      auto-rotate
+      rotation-per-second="10deg"
+      interaction-prompt="none"
+      environment-image="neutral"
+      exposure="1.15">
+    </model-viewer>
+  </div>
+  <div class="planet-meta">
+    <span>05 — PLANETA ROCOSO</span>
+    <span class="arrow">↗</span>
+  </div>
+  <h3>Venus</h3>
+          <p class="lc-card-brief" data-lc-owned><span lang="es">Sus densas nubes ocultan una superficie de temperaturas extremas. Magellan la estudió mediante radar.</span><span lang="en">Its thick clouds conceal a surface of extreme temperatures. Magellan studied it using radar.</span></p>
+          <span class="explore-link">EXPLORAR CUERPO →</span>
+</a>
+
+<!-- JUPITER -->
+<a class="planet-card" href="#explorar"
+   data-planet="jupiter">
+  <div class="planet-art">
+    <model-viewer class="preview-model"
+      src="models/jupiter.glb"
+      auto-rotate
+      rotation-per-second="10deg"
+      interaction-prompt="none"
+      environment-image="neutral"
+      exposure="1.15">
+    </model-viewer>
+  </div>
+  <div class="planet-meta">
+    <span>06 — GIGANTE GASEOSO</span>
+    <span class="arrow">↗</span>
+  </div>
+  <h3>Júpiter</h3>
+          <p class="lc-card-brief" data-lc-owned><span lang="es">El gigante del sistema solar. Pioneer 10 abrió el camino a su exploración y al estudio de su radiación.</span><span lang="en">The giant of the solar system. Pioneer 10 pioneered its exploration and the study of its radiation.</span></p>
+          <span class="explore-link">EXPLORAR CUERPO →</span>
+</a>
+
+<!-- URANO -->
+<a class="planet-card" href="#explorar"
+   data-planet="urano">
+  <div class="planet-art">
+    <model-viewer class="preview-model"
+      src="models/urano.glb"
+      auto-rotate
+      rotation-per-second="10deg"
+      interaction-prompt="none"
+      environment-image="neutral"
+      exposure="1.15">
+    </model-viewer>
+  </div>
+  <div class="planet-meta">
+    <span>07 — GIGANTE HELADO</span>
+    <span class="arrow">↗</span>
+  </div>
+  <h3>Urano</h3>
+          <p class="lc-card-brief" data-lc-owned><span lang="es">Un gigante helado que gira casi de lado. Voyager 2 permitió observarlo de cerca.</span><span lang="en">An ice giant that rotates almost on its side. Voyager 2 observed it up close.</span></p>
+          <span class="explore-link">EXPLORAR CUERPO →</span>
+</a>
+
+<!-- NEPTUNO -->
+<a class="planet-card" href="#explorar"
+   data-planet="neptuno">
+  <div class="planet-art">
+    <model-viewer class="preview-model"
+      src="models/neptuno.glb"
+      auto-rotate
+      rotation-per-second="10deg"
+      interaction-prompt="none"
+      environment-image="neutral"
+      exposure="1.15">
+    </model-viewer>
+  </div>
+  <div class="planet-meta">
+    <span>08 — GIGANTE HELADO</span>
+    <span class="arrow">↗</span>
+  </div>
+  <h3>Neptuno</h3>
+          <p class="lc-card-brief" data-lc-owned><span lang="es">Un gigante helado distante. Voyager 2 exploró su atmósfera y su sistema de lunas.</span><span lang="en">A distant ice giant. Voyager 2 explored its atmosphere and system of moons.</span></p>
+          <span class="explore-link">EXPLORAR CUERPO →</span>
+</a>
+
+      </div>
+
+      <p class="scroll-hint">
+        <span>↓</span>
+        DESPLÁZATE PARA DESCUBRIR
+      </p>
+
+    </section>
+
+    <!-- Modal de visualización: contiene ÚNICAMENTE el modelo 3D y los controles básicos. -->
+    <section id="echo-protocol" data-lc-owned aria-label="Echo Protocol"></section>
+    <section class="lc-science-gallery lc-bilingual" data-lc-owned aria-labelledby="lc-gallery-title"><header><p class="lc-editorial-kicker"><span lang="es">ARCHIVO VISUAL · MARTE</span><span lang="en">VISUAL ARCHIVE · MARS</span></p><h2 id="lc-gallery-title"><span lang="es">Historias de la exploración marciana</span><span lang="en">Stories of Martian exploration</span></h2><p><span lang="es">Una ilustración oficial de Ingenuity y dos registros históricos de Opportunity muestran distintas etapas de la exploración de Marte.</span><span lang="en">An official Ingenuity illustration and two historical Opportunity records show different stages of Mars exploration.</span></p></header><div class="lc-gallery-grid"><figure><div class="lc-gallery-media"><img src="legacy-assets/PIA23720.png" width="1062" height="590" alt="Ilustración artística de Ingenuity en Marte / Artist’s concept of Ingenuity on Mars" loading="lazy"></div><figcaption><span class="lc-gallery-id">PIA23720</span><h3><span lang="es">Ingenuity: una nueva forma de explorar</span><span lang="en">Ingenuity: a new way to explore</span></h3><p><span lang="es">Ilustración artística oficial de NASA/JPL de 2020: Ingenuity con el rover Perseverance al fondo. No es una fotografía de la superficie marciana.</span><span lang="en">Official 2020 NASA/JPL artist’s concept: Ingenuity with the Perseverance rover in the background. It is not a photograph of the Martian surface.</span></p><a href="https://www.nasa.gov/image-detail/amf-pia23720/" target="_blank" rel="noopener noreferrer"><span lang="es">Fuente NASA</span><span lang="en">NASA source</span> ↗</a><small>NASA/JPL-Caltech</small></figcaption></figure><figure><div class="lc-gallery-media"><img src="legacy-assets/PIA22929.jpg" width="1024" height="1024" alt="Una transmisión incompleta / An incomplete transmission" loading="lazy"></div><figcaption><span class="lc-gallery-id">PIA22929</span><h3><span lang="es">Una transmisión incompleta</span><span lang="en">An incomplete transmission</span></h3><p><span lang="es">Pancam, 10 de junio de 2018. Los puntos blancos son ruido de cámara; la franja negra inferior representa datos no recibidos.</span><span lang="en">Pancam, June 10, 2018. White speckles are camera noise; the black lower band represents data not received.</span></p><a href="https://science.nasa.gov/photojournal/opportunitys-last-message/" target="_blank" rel="noopener noreferrer"><span lang="es">Fuente NASA</span><span lang="en">NASA source</span> ↗</a><small>NASA/JPL-Caltech/Cornell/ASU</small></figcaption></figure><figure><div class="lc-gallery-media"><img src="legacy-assets/PIA22930.jpg" width="224" height="96" alt="Las últimas miniaturas / The final thumbnails" loading="lazy"></div><figcaption><span class="lc-gallery-id">PIA22930</span><h3><span lang="es">Las últimas miniaturas</span><span lang="en">The final thumbnails</span></h3><p><span lang="es">Las versiones completas de estas dos imágenes nunca llegaron. No son la misma fotografía que la última transmisión.</span><span lang="en">The full versions of these two images never arrived. They differ from the last transmitted photograph.</span></p><a href="https://science.nasa.gov/photojournal/last-images-opportunity-took/" target="_blank" rel="noopener noreferrer"><span lang="es">Fuente NASA</span><span lang="en">NASA source</span> ↗</a><small>NASA/JPL-Caltech/Cornell/ASU</small></figcaption></figure></div></section>
+
+    <div class="model-overlay" id="model-overlay" hidden aria-hidden="true" role="dialog" aria-modal="true" aria-label="Visor espacial 3D">
+      <div class="model-backdrop" data-close-viewer="true"></div>
+      <div class="model-stage" role="document">
+        <div class="model-bar">
+          <button type="button" class="model-back" id="model-back">← VOLVER</button>
+          <h2 id="model-title">MODELO 3D</h2>
+          <div class="view-actions">
+            <button type="button" class="model-toggle" id="model-toggle" hidden aria-label="Cambiar entre vista NASA y 3D transparente">FONDO TRANSPARENTE</button>
+            <button type="button" class="model-close" id="model-close" aria-label="Cerrar visor">✕</button>
+          </div>
+        </div>
+        <model-viewer id="focus-model" camera-controls auto-rotate rotation-per-second="6deg"
+          interaction-prompt="none" environment-image="neutral" exposure="1.3"
+          shadow-intensity="0" touch-action="pan-y" loading="lazy"
+          alt="Modelo interactivo tridimensional"></model-viewer>
+        <!-- NASA embebido en vista ampliada. El visor es externo y conserva sus propias condiciones de carga. -->
+        <div class="nasa-planet-stage" id="nasa-planet-stage" hidden></div>
+        <div class="model-controls">ARRASTRA PARA GIRAR <span>·</span> DESLIZA PARA ACERCAR</div>
+      </div>
+    </div>
+
+  <section aria-labelledby="lc-credits-title" class="lc-credits" data-lc-owned="" id="creditos-recursos">
+<p class="lc-credit-kicker"><span lang="es">TRANSPARENCIA · ARCHIVO DE RECURSOS</span><span lang="en">TRANSPARENCY · RESOURCE ARCHIVE</span></p><h2 id="lc-credits-title"><span lang="es">Créditos, recursos y licencias</span><span lang="en">Credits, resources &amp; licenses</span></h2><p><span lang="es">Cosmic Legacy es un museo educativo independiente creado para NASA Space Apps Challenge. No es un producto oficial ni cuenta con aval de NASA o JPL.</span><span lang="en">Cosmic Legacy is an independent educational museum created for NASA Space Apps Challenge. It is not an official product or endorsed by NASA or JPL.</span></p><p class="lc-credit-note"><span lang="es">Consulta las fuentes científicas, las atribuciones disponibles y las condiciones de uso. El inventario técnico distingue las referencias de los archivos cuya procedencia está documentada; no todos tienen una identificación de origen completa.</span><span lang="en">Explore scientific sources, available attributions and usage terms. The technical inventory distinguishes references from assets with documented provenance; some assets lack complete source identification.</span></p><div class="lc-credit-summary"><strong><span lang="es">16 modelos 3D</span><span lang="en">16 3D models</span></strong><strong><span lang="es">16 imágenes y texturas</span><span lang="en">16 images and textures</span></strong><strong><span lang="es">5 archivos de Opportunity</span><span lang="en">5 Opportunity archive files</span></strong></div><div class="lc-credit-context"><div class="lc-credit-legend"><h3><span lang="es">Del archivo espacial al museo</span><span lang="en">From space archives to the museum</span></h3><p><span lang="es">El museo conecta los datos y las historias de misiones con una experiencia de aprendizaje. Las fotografías científicas, las representaciones tridimensionales y las simulaciones tienen propósitos distintos.</span><span lang="en">The museum connects mission data and stories with an educational experience. Scientific photographs, 3D representations and simulations serve different purposes.</span></p><div class="lc-credit-legend-grid"><article><strong><span lang="es">Archivo científico</span><span lang="en">Science archive</span></strong><p><span lang="es">Panoramas y testimonios de las misiones, con sus referencias NASA y JPL.</span><span lang="en">Mission panoramas and records, with NASA and JPL references.</span></p></article><article><strong><span lang="es">Exploración 3D</span><span lang="en">3D exploration</span></strong><p><span lang="es">Modelos y texturas de apoyo para aprender cómo funcionan las misiones.</span><span lang="en">Supporting models and textures for learning how missions work.</span></p></article><article><strong><span lang="es">Simulación educativa</span><span lang="en">Educational simulation</span></strong><p><span lang="es">Órbitas ilustrativas y decisiones de misión; no representan telemetría real.</span><span lang="en">Illustrative orbits and mission decisions; not actual telemetry.</span></p></article><article><strong><span lang="es">Recreaciones con IA</span><span lang="en">AI reconstructions</span></strong><p><span lang="es">Imágenes y modelos identificados como representaciones educativas.</span><span lang="en">Images and models identified as educational representations.</span></p></article></div></div><figure class="lc-credit-evidence"><img alt="Ingenuity: ilustración artística / artist’s concept PIA23720" height="590" loading="lazy" src="legacy-assets/PIA23720.png" width="1062"/><figcaption><strong><span lang="es">Un ejemplo de ilustración oficial</span><span lang="en">An example of an official illustration</span></strong><p><span lang="es">PIA23720: concepto artístico de Ingenuity y Perseverance publicado en 2020. No corresponde a una fotografía real tomada en Marte.</span><span lang="en">PIA23720: artist’s concept of Ingenuity and Perseverance published in 2020. It is not an actual photograph taken on Mars.</span></p><small>NASA/JPL-Caltech · PIA23720</small><a href="https://www.nasa.gov/image-detail/amf-pia23720/" rel="noopener noreferrer" target="_blank"><span lang="es">Consultar referencia NASA</span><span lang="en">View NASA reference</span> ↗</a></figcaption></figure></div><p class="lc-inventory-link"><a href="biblioteca-recursos.html" rel="noopener noreferrer" target="_blank"><span lang="es">Explorar biblioteca de recursos (37 archivos)</span><span lang="en">Explore resource library (37 assets)</span> ↗</a> <span class="lc-credit-muted"><span lang="es">Fuentes científicas, créditos y fichas técnicas consultables.</span><span lang="en">Includes SHA-256 hashes, available provenance, links and verification limitations.</span></span></p><details><summary><span><span lang="es">Modelos tridimensionales</span><span lang="en">3D models</span></span></summary><div class="lc-credit-grid"><article><code>models/opportunity.glb</code><p class="lc-credit-status reference"><span lang="es">Referencia NASA compatible</span><span lang="en">Compatible NASA reference</span></p><p>Referencia: NASA/JPL-Caltech</p><p><a href="https://science.nasa.gov/resource/spirit-and-opportunity-rover-3d-model/" rel="noopener noreferrer" target="_blank">Spirit and Opportunity Rover ↗</a></p><p><a href="https://www.nasa.gov/nasa-brand-center/images-and-media/" rel="noopener noreferrer" target="_blank">Media usage policy / Condiciones de uso ↗</a></p></article><article><code>models/cassini.glb</code><p class="lc-credit-status reference"><span lang="es">Referencia NASA compatible</span><span lang="en">Compatible NASA reference</span></p><p>Referencia: NASA / Visualization Technology Applications and Development (VTAD)</p><p><a href="https://science.nasa.gov/resource/cassini-3d-model/" rel="noopener noreferrer" target="_blank">Cassini 3D Model ↗</a></p><p><a href="https://www.nasa.gov/nasa-brand-center/images-and-media/" rel="noopener noreferrer" target="_blank">Media usage policy / Condiciones de uso ↗</a></p></article><article><code>models/near-shoemaker.glb</code><p class="lc-credit-status reference"><span lang="es">Referencia NASA compatible</span><span lang="en">Compatible NASA reference</span></p><p>Referencia: NASA 3D Resources</p><p><a href="https://science.nasa.gov/3d-resources/near-shoemaker/" rel="noopener noreferrer" target="_blank">NEAR Shoemaker ↗</a></p><p><a href="https://www.nasa.gov/nasa-brand-center/images-and-media/" rel="noopener noreferrer" target="_blank">Media usage policy / Condiciones de uso ↗</a></p></article><article><code>models/pioneer-10.glb</code><p class="lc-credit-status reference"><span lang="es">Referencia NASA compatible</span><span lang="en">Compatible NASA reference</span></p><p>Referencia: NASA/JPL/Eyes on the Solar System</p><p><a href="https://science.nasa.gov/3d-resources/pioneer/" rel="noopener noreferrer" target="_blank">Pioneer 10 ↗</a></p><p><a href="https://www.nasa.gov/nasa-brand-center/images-and-media/" rel="noopener noreferrer" target="_blank">Media usage policy / Condiciones de uso ↗</a></p></article><article><code>models/ingenuity.glb</code><p class="lc-credit-status reference"><span lang="es">Referencia NASA compatible</span><span lang="en">Compatible NASA reference</span></p><p>Referencia: NASA/JPL-Caltech</p><p><a href="https://science.nasa.gov/resource/mars-ingenuity-helicopter-3d-model/" rel="noopener noreferrer" target="_blank">Mars Ingenuity Helicopter, 3D Model ↗</a></p><p><a href="https://www.nasa.gov/nasa-brand-center/images-and-media/" rel="noopener noreferrer" target="_blank">Media usage policy / Condiciones de uso ↗</a></p></article><article><code>models/venus.glb</code><p class="lc-credit-status reference"><span lang="es">Referencia NASA compatible</span><span lang="en">Compatible NASA reference</span></p><p>Referencia: NASA / Visualization Technology Applications and Development (VTAD)</p><p><a href="https://science.nasa.gov/resource/venus-surface-3d-model/" rel="noopener noreferrer" target="_blank">Venus Surface 3D Model ↗</a></p><p><a href="https://www.nasa.gov/nasa-brand-center/images-and-media/" rel="noopener noreferrer" target="_blank">Media usage policy / Condiciones de uso ↗</a></p></article><article><code>models/jupiter.glb</code><p class="lc-credit-status reference"><span lang="es">Referencia NASA compatible</span><span lang="en">Compatible NASA reference</span></p><p>Referencia: NASA / Visualization Technology Applications and Development (VTAD)</p><p><a href="https://science.nasa.gov/resource/jupiter-3d-model/" rel="noopener noreferrer" target="_blank">Jupiter 3D Model ↗</a></p><p><a href="https://www.nasa.gov/nasa-brand-center/images-and-media/" rel="noopener noreferrer" target="_blank">Media usage policy / Condiciones de uso ↗</a></p></article><article><code>models/saturno.glb</code><p class="lc-credit-status reference"><span lang="es">Referencia NASA compatible</span><span lang="en">Compatible NASA reference</span></p><p>Referencia: NASA / Visualization Technology Applications and Development (VTAD)</p><p><a href="https://science.nasa.gov/resource/saturn-3d-model/" rel="noopener noreferrer" target="_blank">Saturn 3D Model ↗</a></p><p><a href="https://www.nasa.gov/nasa-brand-center/images-and-media/" rel="noopener noreferrer" target="_blank">Media usage policy / Condiciones de uso ↗</a></p></article><article><code>models/urano.glb</code><p class="lc-credit-status reference"><span lang="es">Referencia NASA compatible</span><span lang="en">Compatible NASA reference</span></p><p>Referencia: NASA / Visualization Technology Applications and Development (VTAD)</p><p><a href="https://science.nasa.gov/resource/uranus-3d-model/" rel="noopener noreferrer" target="_blank">Uranus 3D Model ↗</a></p><p><a href="https://www.nasa.gov/nasa-brand-center/images-and-media/" rel="noopener noreferrer" target="_blank">Media usage policy / Condiciones de uso ↗</a></p></article><article><code>models/neptuno.glb</code><p class="lc-credit-status reference"><span lang="es">Referencia NASA compatible</span><span lang="en">Compatible NASA reference</span></p><p>Referencia: NASA / Visualization Technology Applications and Development (VTAD)</p><p><a href="https://science.nasa.gov/resource/neptune-3d-model/" rel="noopener noreferrer" target="_blank">Neptune 3D Model ↗</a></p><p><a href="https://www.nasa.gov/nasa-brand-center/images-and-media/" rel="noopener noreferrer" target="_blank">Media usage policy / Condiciones de uso ↗</a></p></article><article><code>models/tierra.glb</code><p class="lc-credit-status reference"><span lang="es">Referencia NASA compatible</span><span lang="en">Compatible NASA reference</span></p><p>Referencia: NASA / Visualization Technology Applications and Development (VTAD)</p><p><a href="https://science.nasa.gov/resource/earth-with-clouds-3d-model/" rel="noopener noreferrer" target="_blank">Earth with Clouds 3D Model ↗</a></p><p><a href="https://www.nasa.gov/nasa-brand-center/images-and-media/" rel="noopener noreferrer" target="_blank">Media usage policy / Condiciones de uso ↗</a></p></article><article><code>models/marte.glb</code><p class="lc-credit-status reference"><span lang="es">Referencia NASA compatible</span><span lang="en">Compatible NASA reference</span></p><p>Referencia: NASA/JPL-Caltech</p><p><a href="https://science.nasa.gov/resource/planet-mars-3d-model/" rel="noopener noreferrer" target="_blank">Planet Mars, 3D Model ↗</a></p><p><a href="https://www.nasa.gov/nasa-brand-center/images-and-media/" rel="noopener noreferrer" target="_blank">Media usage policy / Condiciones de uso ↗</a></p></article><article><code>models/mercurio.glb</code><p class="lc-credit-status reference"><span lang="es">Referencia visual o científica</span><span lang="en">Visual or scientific reference</span></p><p>Referencia: NASA / Visualization Technology Applications and Development (VTAD)</p><p><a href="https://science.nasa.gov/resource/mercury-3d-model/" rel="noopener noreferrer" target="_blank">Mercury 3D Model ↗</a></p><p><a href="https://www.nasa.gov/nasa-brand-center/images-and-media/" rel="noopener noreferrer" target="_blank">Media usage policy / Condiciones de uso ↗</a></p></article><article><code>models/luna.glb</code><p class="lc-credit-status reference"><span lang="es">Referencia visual o científica</span><span lang="en">Visual or scientific reference</span></p><p>Referencia: NASA Scientific Visualization Studio / Dan Gallagher (referencia / reference)</p><p><a href="https://svs.gsfc.nasa.gov/14959/" rel="noopener noreferrer" target="_blank">Moon 3D Models for Web, AR, and Animation ↗</a></p><p><a href="https://www.nasa.gov/nasa-brand-center/images-and-media/" rel="noopener noreferrer" target="_blank">Media usage policy / Condiciones de uso ↗</a></p></article><article><code>models/apollo-11.glb</code><p class="lc-credit-status ai"><span lang="es">Recreación generada con IA</span><span lang="en">AI-generated recreation</span></p><p>Modelo del proyecto / Project model</p><p><a href="https://science.nasa.gov/mission/apollo-11/" rel="noopener noreferrer" target="_blank">Apollo 11 ↗</a></p></article><article><code>models/surveyor-3.glb</code><p class="lc-credit-status ai"><span lang="es">Recreación generada con IA</span><span lang="en">AI-generated recreation</span></p><p>Modelo del proyecto / Project model</p><p><a href="https://science.nasa.gov/mission/surveyor-3/" rel="noopener noreferrer" target="_blank">Surveyor 3 ↗</a></p></article></div></details><details><summary><span><span lang="es">Fotografías e ilustraciones</span><span lang="en">Photographs and illustrations</span></span></summary><div class="lc-credit-grid"><article><code>img/astronauta-eagle.jpg</code><p class="lc-credit-status reference"><span lang="es">Referencia visual o científica</span><span lang="en">Visual or scientific reference</span></p><p>Referencia: NASA; fotógrafo y fotograma pendientes / photographer and frame pending</p><p><a href="https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo11.html" rel="noopener noreferrer" target="_blank">Apollo 11 — historical image archive, AS11-40-5927 (candidate) ↗</a></p><p><a href="https://www.nasa.gov/nasa-brand-center/images-and-media/" rel="noopener noreferrer" target="_blank">Media usage policy / Condiciones de uso ↗</a></p></article><article><code>img/eagle.jpg</code><p class="lc-credit-status reference"><span lang="es">Referencia visual o científica</span><span lang="en">Visual or scientific reference</span></p><p>Referencia: NASA; fotógrafo y fotograma pendientes / photographer and frame pending</p><p><a href="https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo11.html" rel="noopener noreferrer" target="_blank">Apollo 11 — historical image archive, AS11-40-5927 (candidate) ↗</a></p><p><a href="https://www.nasa.gov/nasa-brand-center/images-and-media/" rel="noopener noreferrer" target="_blank">Media usage policy / Condiciones de uso ↗</a></p></article><article><code>img/ingenuity.jpg</code><p class="lc-credit-status reference"><span lang="es">Referencia visual o científica</span><span lang="en">Visual or scientific reference</span></p><p>Referencia: NASA/JPL-Caltech/ASU/MSSS (referencia / reference)</p><p><a href="https://www.jpl.nasa.gov/images/pia26236-perseverance-spots-ingenuity-at-its-final-airfield/" rel="noopener noreferrer" target="_blank">PIA26236 · Perseverance Spots Ingenuity at Its Final Airfield (reference) ↗</a></p><p><a href="https://www.nasa.gov/nasa-brand-center/images-and-media/" rel="noopener noreferrer" target="_blank">Media usage policy / Condiciones de uso ↗</a></p></article><article><code>img/near.jpg</code><p class="lc-credit-status reference"><span lang="es">Referencia visual o científica</span><span lang="en">Visual or scientific reference</span></p><p>Referencia: NASA (referencia / reference)</p><p><a href="https://www.jpl.nasa.gov/images/pia18177-nasas-near-spacecrafts-rendezvous-with-asteroid-eros-artists-concept/" rel="noopener noreferrer" target="_blank">NEAR rendezvous (artist’s concept) ↗</a></p><p><a href="https://www.nasa.gov/nasa-brand-center/images-and-media/" rel="noopener noreferrer" target="_blank">Media usage policy / Condiciones de uso ↗</a></p></article><article><code>img/pioneer.jpg</code><p class="lc-credit-status reference"><span lang="es">Referencia visual o científica</span><span lang="en">Visual or scientific reference</span></p><p>Referencia: NASA (referencia / reference)</p><p><a href="https://science.nasa.gov/resource/pioneer-10-at-jupiter-artists-concept/" rel="noopener noreferrer" target="_blank">Pioneer 10 at Jupiter (artist’s concept) ↗</a></p><p><a href="https://www.nasa.gov/nasa-brand-center/images-and-media/" rel="noopener noreferrer" target="_blank">Media usage policy / Condiciones de uso ↗</a></p></article></div></details><details><summary><span><span lang="es">Texturas del sistema solar</span><span lang="en">Solar system textures</span></span></summary><div class="lc-credit-grid"><article><code>solar-assets/jupiter.jpg</code><p class="lc-credit-status reference"><span lang="es">Textura ilustrativa</span><span lang="en">Illustrative texture</span></p><p>Referencia: Documentación del proyecto / Project documentation</p><p><a href="https://science.nasa.gov/3d-resources/" rel="noopener noreferrer" target="_blank">NASA 3D Resources · textures ↗</a></p></article><article><code>solar-assets/luna.jpg</code><p class="lc-credit-status reference"><span lang="es">Textura ilustrativa</span><span lang="en">Illustrative texture</span></p><p>Referencia: Documentación del proyecto / Project documentation</p><p><a href="https://svs.gsfc.nasa.gov/14959/" rel="noopener noreferrer" target="_blank">Moon 3D Models for Web, AR, and Animation · reference ↗</a></p></article><article><code>solar-assets/marte.jpg</code><p class="lc-credit-status reference"><span lang="es">Textura ilustrativa</span><span lang="en">Illustrative texture</span></p><p>Referencia: Documentación del proyecto / Project documentation</p><p><a href="https://science.nasa.gov/resource/planet-mars-3d-model/" rel="noopener noreferrer" target="_blank">Planet Mars, 3D Model · reference ↗</a></p></article><article><code>solar-assets/mercurio.jpg</code><p class="lc-credit-status reference"><span lang="es">Textura ilustrativa</span><span lang="en">Illustrative texture</span></p><p>Referencia: Documentación del proyecto / Project documentation</p><p><a href="https://science.nasa.gov/3d-resources/" rel="noopener noreferrer" target="_blank">NASA 3D Resources · textures ↗</a></p></article><article><code>solar-assets/neptuno.jpg</code><p class="lc-credit-status reference"><span lang="es">Textura ilustrativa</span><span lang="en">Illustrative texture</span></p><p>Referencia: Documentación del proyecto / Project documentation</p><p><a href="https://science.nasa.gov/3d-resources/" rel="noopener noreferrer" target="_blank">NASA 3D Resources · textures ↗</a></p></article><article><code>solar-assets/saturno.jpg</code><p class="lc-credit-status reference"><span lang="es">Textura ilustrativa</span><span lang="en">Illustrative texture</span></p><p>Referencia: Documentación del proyecto / Project documentation</p><p><a href="https://science.nasa.gov/resource/saturn-3d-model/" rel="noopener noreferrer" target="_blank">Saturn 3D Model · reference ↗</a></p></article><article><code>solar-assets/sol.jpg</code><p class="lc-credit-status reference"><span lang="es">Textura ilustrativa</span><span lang="en">Illustrative texture</span></p><p>Referencia: Documentación del proyecto / Project documentation</p><p><a href="https://science.nasa.gov/3d-resources/" rel="noopener noreferrer" target="_blank">NASA 3D Resources · textures ↗</a></p></article><article><code>solar-assets/tierra.jpg</code><p class="lc-credit-status reference"><span lang="es">Textura ilustrativa</span><span lang="en">Illustrative texture</span></p><p>Referencia: Documentación del proyecto / Project documentation</p><p><a href="https://science.nasa.gov/resource/earth-with-clouds-3d-model/" rel="noopener noreferrer" target="_blank">Earth with Clouds 3D Model · reference ↗</a></p></article><article><code>solar-assets/urano.jpg</code><p class="lc-credit-status reference"><span lang="es">Textura ilustrativa</span><span lang="en">Illustrative texture</span></p><p>Referencia: Documentación del proyecto / Project documentation</p><p><a href="https://science.nasa.gov/3d-resources/" rel="noopener noreferrer" target="_blank">NASA 3D Resources · textures ↗</a></p></article><article><code>solar-assets/venus.jpg</code><p class="lc-credit-status reference"><span lang="es">Textura ilustrativa</span><span lang="en">Illustrative texture</span></p><p>Referencia: Documentación del proyecto / Project documentation</p><p><a href="https://science.nasa.gov/3d-resources/" rel="noopener noreferrer" target="_blank">NASA 3D Resources · textures ↗</a></p></article></div></details><details open=""><summary><span><span lang="es">Legacy Protocol · Opportunity</span><span lang="en">Legacy Protocol · Opportunity</span></span></summary><div class="lc-credit-grid"><article><code>legacy-assets/PIA22909-4096.webp</code><p class="lc-credit-status documented"><span lang="es">Archivo científico documentado</span><span lang="en">Documented science asset</span></p><p>NASA/JPL-Caltech/Cornell/ASU</p><p><a href="https://science.nasa.gov/photojournal/opportunity-legacy-pan-true-color/" rel="noopener noreferrer" target="_blank">PIA22909-4096 ↗</a></p><p><a href="https://www.jpl.nasa.gov/jpl-image-use-policy/" rel="noopener noreferrer" target="_blank">Media usage policy / Condiciones de uso ↗</a></p></article><article><code>legacy-assets/PIA22909-8192.webp</code><p class="lc-credit-status documented"><span lang="es">Archivo científico documentado</span><span lang="en">Documented science asset</span></p><p>NASA/JPL-Caltech/Cornell/ASU</p><p><a href="https://science.nasa.gov/photojournal/opportunity-legacy-pan-true-color/" rel="noopener noreferrer" target="_blank">PIA22909-8192 ↗</a></p><p><a href="https://www.jpl.nasa.gov/jpl-image-use-policy/" rel="noopener noreferrer" target="_blank">Media usage policy / Condiciones de uso ↗</a></p></article><article><code>legacy-assets/PIA22929.jpg</code><p class="lc-credit-status documented"><span lang="es">Archivo científico documentado</span><span lang="en">Documented science asset</span></p><p>NASA/JPL-Caltech/Cornell/ASU</p><p><a href="https://science.nasa.gov/photojournal/opportunitys-last-message/" rel="noopener noreferrer" target="_blank">PIA22929 ↗</a></p><p><a href="https://www.jpl.nasa.gov/jpl-image-use-policy/" rel="noopener noreferrer" target="_blank">Media usage policy / Condiciones de uso ↗</a></p></article><article><code>legacy-assets/PIA22930.jpg</code><p class="lc-credit-status documented"><span lang="es">Archivo científico documentado</span><span lang="en">Documented science asset</span></p><p>NASA/JPL-Caltech/Cornell/ASU</p><p><a href="https://science.nasa.gov/photojournal/last-images-opportunity-took/" rel="noopener noreferrer" target="_blank">PIA22930 ↗</a></p><p><a href="https://www.jpl.nasa.gov/jpl-image-use-policy/" rel="noopener noreferrer" target="_blank">Media usage policy / Condiciones de uso ↗</a></p></article><article><code>legacy-assets/PIA22909-reconstruccion-v2.webp</code><p class="lc-credit-status ai"><span lang="es">Recreación generada con IA</span><span lang="en">AI-generated recreation</span></p><p>NASA/JPL-Caltech/Cornell/ASU + proyecto / project</p><p><a href="https://science.nasa.gov/photojournal/opportunity-legacy-pan-true-color/" rel="noopener noreferrer" target="_blank">PIA22909 · original mosaic ↗</a></p><p><a href="https://www.jpl.nasa.gov/jpl-image-use-policy/" rel="noopener noreferrer" target="_blank">Media usage policy / Condiciones de uso ↗</a></p></article></div></details><details><summary><span><span lang="es">Fuentes científicas y recursos NASA</span><span lang="en">Scientific sources and NASA resources</span></span></summary><p><span lang="es">Referencias presentes en el código para historias, anatomía, planetas y la simulación de Opportunity. Los enlaces del desafío deben verificarse por separado.</span><span lang="en">References present in the code for stories, anatomy, planets and the Opportunity simulation. Challenge-listed eligibility must be checked separately.</span></p><ul class="lc-credit-links"><li><a href="https://science.nasa.gov/mission/apollo-11/" rel="noopener noreferrer" target="_blank">apollo 11 ↗</a><small>echo-data.js</small></li><li><a href="https://science.nasa.gov/mission/cassini/about-the-mission/" rel="noopener noreferrer" target="_blank">about the mission ↗</a><small>echo-data.js</small></li><li><a href="https://science.nasa.gov/mission/cassini/grand-finale/overview/" rel="noopener noreferrer" target="_blank">overview ↗</a><small>echo-data.js</small></li><li><a href="https://science.nasa.gov/mission/cassini/spacecraft/cassini-orbiter/" rel="noopener noreferrer" target="_blank">cassini orbiter ↗</a><small>anatomia-espacial.js</small></li><li><a href="https://science.nasa.gov/mission/dawn/toolkit/end-of-mission/" rel="noopener noreferrer" target="_blank">end of mission ↗</a><small>explorador-planetas.js</small></li><li><a href="https://science.nasa.gov/mission/kepler/" rel="noopener noreferrer" target="_blank">kepler ↗</a><small>explorador-planetas.js</small></li><li><a href="https://science.nasa.gov/mission/magellan/" rel="noopener noreferrer" target="_blank">magellan ↗</a><small>echo.js, explorador-planetas.js</small></li><li><a href="https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/" rel="noopener noreferrer" target="_blank">ingenuity mars helicopter ↗</a><small>anatomia-espacial.js</small></li><li><a href="https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/science-highlights/" rel="noopener noreferrer" target="_blank">science highlights ↗</a><small>legacy-assets/content-panorama-v2.mjs</small></li><li><a href="https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/science-instruments/" rel="noopener noreferrer" target="_blank">science instruments ↗</a><small>anatomia-espacial.js</small></li><li><a href="https://science.nasa.gov/mission/mer-opportunity/" rel="noopener noreferrer" target="_blank">mer opportunity ↗</a><small>echo-data.js, legacy-assets/content-panorama-v2.mjs</small></li><li><a href="https://science.nasa.gov/mission/messenger/" rel="noopener noreferrer" target="_blank">messenger ↗</a><small>echo.js, explorador-planetas.js</small></li><li><a href="https://science.nasa.gov/mission/near-shoemaker/" rel="noopener noreferrer" target="_blank">near shoemaker ↗</a><small>anatomia-espacial.js, echo-data.js</small></li><li><a href="https://science.nasa.gov/mission/pioneer-10/" rel="noopener noreferrer" target="_blank">pioneer 10 ↗</a><small>anatomia-espacial.js, echo-data.js</small></li><li><a href="https://science.nasa.gov/mission/surveyor-3/" rel="noopener noreferrer" target="_blank">surveyor 3 ↗</a><small>anatomia-espacial.js, echo-data.js</small></li><li><a href="https://science.nasa.gov/mission/voyager/voyager-2/" rel="noopener noreferrer" target="_blank">voyager 2 ↗</a><small>echo.js, explorador-planetas.js</small></li><li><a href="https://science.nasa.gov/missions/mer/six-things-to-know-about-nasas-opportunity-rover/" rel="noopener noreferrer" target="_blank">six things to know about nasas opportunity rover ↗</a><small>legacy-assets/content-panorama-v2.mjs</small></li><li><a href="https://science.nasa.gov/photojournal/last-images-opportunity-took/" rel="noopener noreferrer" target="_blank">last images opportunity took ↗</a><small>legacy-assets/content-panorama-v2.mjs</small></li><li><a href="https://science.nasa.gov/photojournal/opportunity-legacy-pan-true-color/" rel="noopener noreferrer" target="_blank">opportunity legacy pan true color ↗</a><small>legacy-assets/content-panorama-v2.mjs</small></li><li><a href="https://science.nasa.gov/photojournal/opportunitys-last-message/" rel="noopener noreferrer" target="_blank">opportunitys last message ↗</a><small>echo-data.js, legacy-assets/content-panorama-v2.mjs</small></li><li><a href="https://science.nasa.gov/solar-system/planets/" rel="noopener noreferrer" target="_blank">planets ↗</a><small>echo.js</small></li><li><a href="https://science.nasa.gov/resource/venus-surface-3d-model/" rel="noopener noreferrer" target="_blank">NASA · Venus Surface 3D Model ↗</a><small>sistema-solar.js</small></li><li><a href="https://science.nasa.gov/resource/uranus-3d-model/" rel="noopener noreferrer" target="_blank">NASA · Uranus 3D Model ↗</a><small>sistema-solar.js</small></li><li><a href="https://science.nasa.gov/resource/saturn-3d-model/" rel="noopener noreferrer" target="_blank">NASA · Saturn 3D Model ↗</a><small>sistema-solar.js</small></li><li><a href="https://science.nasa.gov/resource/neptune-3d-model/" rel="noopener noreferrer" target="_blank">NASA · Neptune 3D Model ↗</a><small>sistema-solar.js</small></li><li><a href="https://science.nasa.gov/resource/planet-mars-3d-model/" rel="noopener noreferrer" target="_blank">NASA · Planet Mars, 3D Model ↗</a><small>sistema-solar.js</small></li><li><a href="https://science.nasa.gov/resource/jupiter-3d-model/" rel="noopener noreferrer" target="_blank">NASA · Jupiter 3D Model ↗</a><small>sistema-solar.js</small></li><li><a href="https://science.nasa.gov/resource/earth-with-clouds-3d-model/" rel="noopener noreferrer" target="_blank">NASA · Earth with Clouds 3D Model ↗</a><small>sistema-solar.js</small></li><li><a href="https://www.jpl.nasa.gov/jpl-image-use-policy/" rel="noopener noreferrer" target="_blank">jpl image use policy ↗</a><small>legacy-assets/content-panorama-v2.mjs</small></li><li><a href="https://www.jpl.nasa.gov/missions/explorer-1/" rel="noopener noreferrer" target="_blank">explorer 1 ↗</a><small>echo.js, explorador-planetas.js</small></li><li><a href="https://www.jpl.nasa.gov/news/nasas-opportunity-rover-mission-on-mars-comes-to-end/" rel="noopener noreferrer" target="_blank">nasas opportunity rover mission on mars comes to end ↗</a><small>legacy-assets/content-panorama-v2.mjs</small></li><li><a href="https://www.jpl.nasa.gov/news/opportunity-hunkers-down-during-dust-storm/" rel="noopener noreferrer" target="_blank">opportunity hunkers down during dust storm ↗</a><small>legacy-assets/content-panorama-v2.mjs</small></li><li><a href="https://www.nasa.gov/missions/apollo/apollo-11/apollo-11-mission-overview/" rel="noopener noreferrer" target="_blank">apollo 11 mission overview ↗</a><small>anatomia-espacial.js, echo-data.js</small></li><li><a href="https://www.nasa.gov/news-release/after-three-years-on-mars-nasas-ingenuity-helicopter-mission-ends/" rel="noopener noreferrer" target="_blank">after three years on mars nasas ingenuity helicopter mission ends ↗</a><small>echo-data.js</small></li></ul></details><details><summary><span><span lang="es">Tecnología y licencias de terceros</span><span lang="en">Technology and third-party licenses</span></span></summary><div class="lc-credit-grid"><article><strong>model-viewer 4.1.0</strong><p>Google / model-viewer contributors · Apache-2.0</p><p><a href="https://ajax.googleapis.com/ajax/libs/model-viewer/4.1.0/model-viewer.min.js" rel="noopener noreferrer" target="_blank">Resource ↗</a></p><p><a href="https://github.com/google/model-viewer/blob/master/LICENSE" rel="noopener noreferrer" target="_blank">License / licencia ↗</a></p></article><article><strong>Manrope</strong><p>The Manrope Project Authors · SIL OFL 1.1</p><p><a href="https://fonts.google.com/specimen/Manrope" rel="noopener noreferrer" target="_blank">Resource ↗</a></p><p><a href="https://github.com/google/fonts/blob/main/ofl/manrope/OFL.txt" rel="noopener noreferrer" target="_blank">License / licencia ↗</a></p></article><article><strong>Cormorant Garamond</strong><p>The Cormorant Project Authors / Christian Thalmann · SIL OFL 1.1</p><p><a href="https://fonts.google.com/specimen/Cormorant+Garamond" rel="noopener noreferrer" target="_blank">Resource ↗</a></p><p><a href="https://github.com/CatharsisFonts/Cormorant" rel="noopener noreferrer" target="_blank">License / licencia ↗</a></p></article></div><p><span lang="es">Las fuentes y el visor se cargan desde servicios externos; no se incluyen sus binarios en el ZIP. El código propio corresponde al equipo; no se concede una licencia abierta nueva sin su autorización.</span><span lang="en">Fonts and viewer are loaded from external services; their binaries are not bundled. The team owns its original contributions; no new open license is granted without authorization.</span></p></details><details open=""><summary><span><span lang="es">Declaración de inteligencia artificial</span><span lang="en">Artificial intelligence disclosure</span></span></summary><p><span lang="es">Se declara asistencia de IA en programación, depuración, redacción educativa, traducción, modelos simplificados de Apollo 11 y Surveyor 3 y reconstrucción artística de PIA22909. ChatGPT (OpenAI) se utilizó en la revisión, corrección y documentación del proyecto y creó las recreaciones identificadas como IA, según confirma el equipo. La entrega oficial debe enumerar todas las herramientas empleadas.</span><span lang="en">AI assistance is disclosed for coding, debugging, educational writing, translation, simplified Apollo 11 and Surveyor 3 models and the artistic PIA22909 reconstruction. ChatGPT (OpenAI) was used for project review, corrections and documentation and created the identified AI recreations, as confirmed by the team. All tools used must be listed in the official submission.</span></p><p><span lang="es">Los textos narrativos son interpretaciones educativas; las simulaciones no son telemetría NASA. El panorama original se muestra primero. Las recreaciones visuales están identificadas.</span><span lang="en">Narrative texts are educational interpretations; simulations are not NASA telemetry. The original panorama is shown first. Visual recreations are labeled.</span></p></details><details><summary><span><span lang="es">Normas y condiciones</span><span lang="en">Rules and conditions</span></span></summary><ul class="lc-credit-links"><li><a href="https://www.spaceappschallenge.org/legal/" rel="noopener noreferrer" target="_blank">Bases legales / Legal terms ↗</a></li><li><a href="https://www.spaceappschallenge.org/resources/project-submission-guide/en" rel="noopener noreferrer" target="_blank">Guía de entrega / Submission guide ↗</a></li><li><a href="https://www.spaceappschallenge.org/2026/challenges/nasas-discarded-equipment-storytelling/?tab=resources" rel="noopener noreferrer" target="_blank">Desafío y recursos / Challenge resources ↗</a></li><li><a href="https://github.com/nasa/spaceapps/discussions/1947" rel="noopener noreferrer" target="_blank">IA y marcas / AI and branding ↗</a></li><li><a href="https://github.com/nasa/spaceapps/discussions/1858" rel="noopener noreferrer" target="_blank">Requisitos de entrega / Submission requirements ↗</a></li><li><a href="https://www.nasa.gov/nasa-brand-center/images-and-media/" rel="noopener noreferrer" target="_blank">NASA Media Usage Guidelines ↗</a></li><li><a href="https://www.jpl.nasa.gov/jpl-image-use-policy/" rel="noopener noreferrer" target="_blank">JPL Image Use Policy ↗</a></li></ul><p><span lang="es">La aprobación corresponde a los organizadores; registro del equipo, fecha real de desarrollo, derechos y recurso específico del desafío deben confirmarse antes de enviar.</span><span lang="en">Approval rests with the organizers; team registration, actual development date, rights and challenge-specific resource must be confirmed before submission.</span></p></details></section>
+  </main>
+
+  <footer>
+
+    <a class="lc-credits-link" data-lc-owned href="#creditos-recursos"><span ><span lang="es">Fuentes y créditos</span><span lang="en">Sources &amp; credits</span></span></a>
+
+    <div style="display:grid;gap:6px;text-align:center;align-content:center;line-height:1.6;">
+      <span class="lc-bilingual" data-lc-owned style="font-size:11px;letter-spacing:.08em;color:#d8cbb8;">
+        <span lang="es">Desarrollado por el equipo <b>INTIHUATANA</b></span><span lang="en">Developed by team <b>INTIHUATANA</b></span>
+      </span>
+      <span>
+        UNA EXPERIENCIA EDUCATIVA · NASA SPACE APPS CHALLENGE
+      </span>
+    </div>
+
+    <span>
+      HECHO PARA EXPLORAR <b>✦</b>
+    </span>
+
+  </footer>
+
+  <script src="script.js?v=echo1"></script>
+
+  <script src="sistema-solar.js?v=final3" defer></script>
+  <script src="explorador-planetas.js?v=archive6" defer></script>
+  <script src="legado-experiencia.js" defer></script>
+  <script src="anatomia-espacial.js" defer></script>
+  <script src="legado-equipos-data.js" defer></script>
+  <script src="legacy-protocol-panorama-v2.js" defer></script>
+  <script src="legado-equipos.js?v=reset1" defer></script>
+  <script src="integracion.js" defer></script>
+  <script src="echo-data.js" defer></script>
+  <script src="echo.js" defer></script>
+  <script src="sistema-solar-fullscreen.js" defer></script>
+  <script src="cosmic-education-data.js" defer></script>
+  <script src="cosmic-education.js" defer></script>
+</body>
+</html>

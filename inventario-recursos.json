@@ -1,0 +1,1301 @@
+{
+  "fecha_revision": "2026-11-15",
+  "nota": "Las huellas SHA-256 corresponden a los archivos locales. Las coincidencias de tamaño o las referencias científicas no prueban por sí solas la identidad binaria ni la autorización de archivos de terceros. Consulte es/en y status para cada registro. Las declaraciones del equipo del 15/11/2026 se identifican separadamente de las verificaciones independientes. Consulte REVISION-DE-ENTREGA.md para el estado vigente.",
+  "registros": [
+    {
+      "group": "models",
+      "file": "models/opportunity.glb",
+      "title": "Spirit and Opportunity Rover",
+      "url": "https://science.nasa.gov/resource/spirit-and-opportunity-rover-3d-model/",
+      "credit": "NASA/JPL-Caltech",
+      "policy": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "status": "team_confirmed",
+      "es": "Modelo verificado por el equipo; ficha de referencia e integridad local documentadas.",
+      "en": "Model verified by the team; reference and local integrity documented.",
+      "bytes": 11910084,
+      "sha256": "efad9c6275d832d86e7232d63520e48628797d9a7f7c7ff870b28d175ac8b250",
+      "generator": "Khronos Blender glTF 2.0 I/O",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "permiso_es": "Verificación declarada por el equipo; la comparación binaria independiente con el original no se realizó. La política NASA permite usos educativos de sus propios materiales con atribución y sus excepciones; no cubre derechos de terceros.",
+      "permiso_en": "Verification reported by the team; independent comparison against the original was not performed. NASA policy permits educational use of its own materials with attribution and applicable exceptions; it does not cover third-party rights.",
+      "evidencia_previa": {
+        "es": "Coincidencia de nombre y tamaño publicado (11.36 MB); identidad binaria pendiente.",
+        "en": "Matching subject and published file size (11.36 MB); byte identity pending.",
+        "estado": "match",
+        "permiso_es": "La ficha NASA es compatible. Aplicar la política NASA si se acredita que el archivo es el publicado y no tiene restricciones de terceros.",
+        "permiso_en": "The NASA entry is compatible. NASA policy applies if the file is established as the published asset and no third-party restrictions apply."
+      },
+      "declaracion_equipo": "El responsable del proyecto confirma que todos los modelos 3D han sido verificados."
+    },
+    {
+      "group": "models",
+      "file": "models/cassini.glb",
+      "title": "Cassini 3D Model",
+      "url": "https://science.nasa.gov/resource/cassini-3d-model/",
+      "credit": "NASA / Visualization Technology Applications and Development (VTAD)",
+      "policy": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "status": "team_confirmed",
+      "es": "Modelo verificado por el equipo; ficha de referencia e integridad local documentadas.",
+      "en": "Model verified by the team; reference and local integrity documented.",
+      "bytes": 5852640,
+      "sha256": "cacdca3279b28e64280ff8e823f572311f67a83bde2d0435b26f515a1b7926be",
+      "generator": "Khronos Blender glTF 2.0 I/O",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "permiso_es": "Verificación declarada por el equipo; la comparación binaria independiente con el original no se realizó. La política NASA permite usos educativos de sus propios materiales con atribución y sus excepciones; no cubre derechos de terceros.",
+      "permiso_en": "Verification reported by the team; independent comparison against the original was not performed. NASA policy permits educational use of its own materials with attribution and applicable exceptions; it does not cover third-party rights.",
+      "evidencia_previa": {
+        "es": "Coincidencia de nombre y tamaño publicado (5.58 MB); identidad binaria pendiente.",
+        "en": "Matching subject and published file size (5.58 MB); byte identity pending.",
+        "estado": "match",
+        "permiso_es": "La ficha NASA es compatible. Aplicar la política NASA si se acredita que el archivo es el publicado y no tiene restricciones de terceros.",
+        "permiso_en": "The NASA entry is compatible. NASA policy applies if the file is established as the published asset and no third-party restrictions apply."
+      },
+      "declaracion_equipo": "El responsable del proyecto confirma que todos los modelos 3D han sido verificados."
+    },
+    {
+      "group": "models",
+      "file": "models/near-shoemaker.glb",
+      "title": "NEAR Shoemaker",
+      "url": "https://science.nasa.gov/3d-resources/near-shoemaker/",
+      "credit": "NASA 3D Resources",
+      "policy": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "status": "team_confirmed",
+      "es": "Modelo verificado por el equipo; ficha de referencia e integridad local documentadas.",
+      "en": "Model verified by the team; reference and local integrity documented.",
+      "bytes": 701808,
+      "sha256": "f3de2f87c97685b207be97e80d7cdca37d1567dd68204e1feb2d85f90e3adb0c",
+      "generator": "Khronos glTF Blender I/O v4.2.57",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "permiso_es": "Verificación declarada por el equipo; la comparación binaria independiente con el original no se realizó. La política NASA permite usos educativos de sus propios materiales con atribución y sus excepciones; no cubre derechos de terceros.",
+      "permiso_en": "Verification reported by the team; independent comparison against the original was not performed. NASA policy permits educational use of its own materials with attribution and applicable exceptions; it does not cover third-party rights.",
+      "evidencia_previa": {
+        "es": "Coincidencia de nombre y tamaño publicado (685.36 KB); identidad binaria pendiente.",
+        "en": "Matching subject and published file size (685.36 KB); byte identity pending.",
+        "estado": "match",
+        "permiso_es": "La ficha NASA es compatible. Aplicar la política NASA si se acredita que el archivo es el publicado y no tiene restricciones de terceros.",
+        "permiso_en": "The NASA entry is compatible. NASA policy applies if the file is established as the published asset and no third-party restrictions apply."
+      },
+      "declaracion_equipo": "El responsable del proyecto confirma que todos los modelos 3D han sido verificados."
+    },
+    {
+      "group": "models",
+      "file": "models/pioneer-10.glb",
+      "title": "Pioneer 10",
+      "url": "https://science.nasa.gov/3d-resources/pioneer/",
+      "credit": "NASA/JPL/Eyes on the Solar System",
+      "policy": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "status": "team_confirmed",
+      "es": "Modelo verificado por el equipo; ficha de referencia e integridad local documentadas.",
+      "en": "Model verified by the team; reference and local integrity documented.",
+      "bytes": 2049840,
+      "sha256": "81443a7fa01cca0dda878cd27692b3307f9c332c4eb8e55a844499d7b350573c",
+      "generator": "Khronos glTF Blender I/O v4.2.57",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "permiso_es": "Verificación declarada por el equipo; la comparación binaria independiente con el original no se realizó. La política NASA permite usos educativos de sus propios materiales con atribución y sus excepciones; no cubre derechos de terceros.",
+      "permiso_en": "Verification reported by the team; independent comparison against the original was not performed. NASA policy permits educational use of its own materials with attribution and applicable exceptions; it does not cover third-party rights.",
+      "evidencia_previa": {
+        "es": "Coincidencia de nombre y tamaño publicado (1.95 MB); identidad binaria pendiente.",
+        "en": "Matching subject and published file size (1.95 MB); byte identity pending.",
+        "estado": "match",
+        "permiso_es": "La ficha NASA es compatible. Aplicar la política NASA si se acredita que el archivo es el publicado y no tiene restricciones de terceros.",
+        "permiso_en": "The NASA entry is compatible. NASA policy applies if the file is established as the published asset and no third-party restrictions apply."
+      },
+      "declaracion_equipo": "El responsable del proyecto confirma que todos los modelos 3D han sido verificados."
+    },
+    {
+      "group": "models",
+      "file": "models/ingenuity.glb",
+      "title": "Mars Ingenuity Helicopter, 3D Model",
+      "url": "https://science.nasa.gov/resource/mars-ingenuity-helicopter-3d-model/",
+      "credit": "NASA/JPL-Caltech",
+      "policy": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "status": "team_confirmed",
+      "es": "Modelo verificado por el equipo; ficha de referencia e integridad local documentadas.",
+      "en": "Model verified by the team; reference and local integrity documented.",
+      "bytes": 1809044,
+      "sha256": "d9ebff90d0475d0be0f9dc241e69bb1700d86c702a1f289578c35f4fefc9f19f",
+      "generator": "Khronos glTF Blender I/O v1.1.46",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "permiso_es": "Verificación declarada por el equipo; la comparación binaria independiente con el original no se realizó. La política NASA permite usos educativos de sus propios materiales con atribución y sus excepciones; no cubre derechos de terceros.",
+      "permiso_en": "Verification reported by the team; independent comparison against the original was not performed. NASA policy permits educational use of its own materials with attribution and applicable exceptions; it does not cover third-party rights.",
+      "evidencia_previa": {
+        "es": "Modelo de la ficha NASA publicada en 2020: 1.73 MB y 1,809,044 bytes locales, tamaños compatibles. No se descargó el original para comparación binaria.",
+        "en": "2020 NASA model entry: 1.73 MB and 1,809,044 local bytes, compatible sizes. The upstream file could not be downloaded for binary comparison.",
+        "estado": "match",
+        "permiso_es": "La ficha NASA es compatible. Aplicar la política NASA si se acredita que el archivo es el publicado y no tiene restricciones de terceros.",
+        "permiso_en": "The NASA entry is compatible. NASA policy applies if the file is established as the published asset and no third-party restrictions apply."
+      },
+      "declaracion_equipo": "El responsable del proyecto confirma que todos los modelos 3D han sido verificados."
+    },
+    {
+      "group": "models",
+      "file": "models/venus.glb",
+      "title": "Venus Surface 3D Model",
+      "url": "https://science.nasa.gov/resource/venus-surface-3d-model/",
+      "credit": "NASA / Visualization Technology Applications and Development (VTAD)",
+      "policy": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "status": "team_confirmed",
+      "es": "Descargado del sitio oficial de NASA, según confirma el responsable del proyecto. Ficha de referencia e integridad local documentadas.",
+      "en": "Downloaded from the official NASA website, as confirmed by the project lead. Reference and local integrity documented.",
+      "bytes": 15971816,
+      "sha256": "2a8b4fe368e5c725beb1bacc5cb59c51498e1688d097a205e5a74261948d0a48",
+      "generator": "Khronos Blender glTF 2.0 I/O",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "permiso_es": "Material NASA de origen declarado por el equipo: uso educativo conforme a las directrices NASA, con atribución y excepciones aplicables. No se realizó comparación binaria independiente.",
+      "permiso_en": "NASA material with source confirmed by the team: educational use under NASA guidelines, with attribution and applicable exceptions. No independent binary comparison was performed.",
+      "evidencia_previa": {
+        "es": "Coincidencia de nombre y tamaño publicado (15.23 MB); identidad binaria pendiente.",
+        "en": "Matching subject and published file size (15.23 MB); byte identity pending.",
+        "estado": "match",
+        "permiso_es": "La ficha NASA es compatible. Aplicar la política NASA si se acredita que el archivo es el publicado y no tiene restricciones de terceros.",
+        "permiso_en": "The NASA entry is compatible. NASA policy applies if the file is established as the published asset and no third-party restrictions apply."
+      },
+      "declaracion_equipo": "El responsable confirma que descargó este modelo planetario directamente del sitio web oficial de NASA."
+    },
+    {
+      "group": "models",
+      "file": "models/jupiter.glb",
+      "title": "Jupiter 3D Model",
+      "url": "https://science.nasa.gov/resource/jupiter-3d-model/",
+      "credit": "NASA / Visualization Technology Applications and Development (VTAD)",
+      "policy": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "status": "team_confirmed",
+      "es": "Descargado del sitio oficial de NASA, según confirma el responsable del proyecto. Ficha de referencia e integridad local documentadas.",
+      "en": "Downloaded from the official NASA website, as confirmed by the project lead. Reference and local integrity documented.",
+      "bytes": 11479456,
+      "sha256": "8edc4e9b88b73ca1b125a258f0ecaef7fc6494a7cadda37704af459a119f4870",
+      "generator": "Khronos Blender glTF 2.0 I/O",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "permiso_es": "Material NASA de origen declarado por el equipo: uso educativo conforme a las directrices NASA, con atribución y excepciones aplicables. No se realizó comparación binaria independiente.",
+      "permiso_en": "NASA material with source confirmed by the team: educational use under NASA guidelines, with attribution and applicable exceptions. No independent binary comparison was performed.",
+      "evidencia_previa": {
+        "es": "Coincidencia de nombre y tamaño publicado (10.95 MB); identidad binaria pendiente.",
+        "en": "Matching subject and published file size (10.95 MB); byte identity pending.",
+        "estado": "match",
+        "permiso_es": "La ficha NASA es compatible. Aplicar la política NASA si se acredita que el archivo es el publicado y no tiene restricciones de terceros.",
+        "permiso_en": "The NASA entry is compatible. NASA policy applies if the file is established as the published asset and no third-party restrictions apply."
+      },
+      "declaracion_equipo": "El responsable confirma que descargó este modelo planetario directamente del sitio web oficial de NASA."
+    },
+    {
+      "group": "models",
+      "file": "models/saturno.glb",
+      "title": "Saturn 3D Model",
+      "url": "https://science.nasa.gov/resource/saturn-3d-model/",
+      "credit": "NASA / Visualization Technology Applications and Development (VTAD)",
+      "policy": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "status": "team_confirmed",
+      "es": "Descargado del sitio oficial de NASA, según confirma el responsable del proyecto. Ficha de referencia e integridad local documentadas.",
+      "en": "Downloaded from the official NASA website, as confirmed by the project lead. Reference and local integrity documented.",
+      "bytes": 5476768,
+      "sha256": "2adbfc3ab16d92ad3eb90509f56c3c51d106942365cc1049d43e6eb91d1d15b5",
+      "generator": "Khronos glTF Blender I/O v5.3.43",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "permiso_es": "Material NASA de origen declarado por el equipo: uso educativo conforme a las directrices NASA, con atribución y excepciones aplicables. No se realizó comparación binaria independiente.",
+      "permiso_en": "NASA material with source confirmed by the team: educational use under NASA guidelines, with attribution and applicable exceptions. No independent binary comparison was performed.",
+      "evidencia_previa": {
+        "es": "Coincidencia de nombre y tamaño publicado (5.22 MB); identidad binaria pendiente.",
+        "en": "Matching subject and published file size (5.22 MB); byte identity pending.",
+        "estado": "match",
+        "permiso_es": "La ficha NASA es compatible. Aplicar la política NASA si se acredita que el archivo es el publicado y no tiene restricciones de terceros.",
+        "permiso_en": "The NASA entry is compatible. NASA policy applies if the file is established as the published asset and no third-party restrictions apply."
+      },
+      "declaracion_equipo": "El responsable confirma que descargó este modelo planetario directamente del sitio web oficial de NASA."
+    },
+    {
+      "group": "models",
+      "file": "models/urano.glb",
+      "title": "Uranus 3D Model",
+      "url": "https://science.nasa.gov/resource/uranus-3d-model/",
+      "credit": "NASA / Visualization Technology Applications and Development (VTAD)",
+      "policy": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "status": "team_confirmed",
+      "es": "Descargado del sitio oficial de NASA, según confirma el responsable del proyecto. Ficha de referencia e integridad local documentadas.",
+      "en": "Downloaded from the official NASA website, as confirmed by the project lead. Reference and local integrity documented.",
+      "bytes": 172652,
+      "sha256": "9c56f96bbfa82d923479c3dd83a00c35238a36addcfbcc61916f1377fe586bd5",
+      "generator": "Khronos Blender glTF 2.0 I/O",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "permiso_es": "Material NASA de origen declarado por el equipo: uso educativo conforme a las directrices NASA, con atribución y excepciones aplicables. No se realizó comparación binaria independiente.",
+      "permiso_en": "NASA material with source confirmed by the team: educational use under NASA guidelines, with attribution and applicable exceptions. No independent binary comparison was performed.",
+      "evidencia_previa": {
+        "es": "Coincidencia de nombre y tamaño publicado (168.61 KB); identidad binaria pendiente.",
+        "en": "Matching subject and published file size (168.61 KB); byte identity pending.",
+        "estado": "match",
+        "permiso_es": "La ficha NASA es compatible. Aplicar la política NASA si se acredita que el archivo es el publicado y no tiene restricciones de terceros.",
+        "permiso_en": "The NASA entry is compatible. NASA policy applies if the file is established as the published asset and no third-party restrictions apply."
+      },
+      "declaracion_equipo": "El responsable confirma que descargó este modelo planetario directamente del sitio web oficial de NASA."
+    },
+    {
+      "group": "models",
+      "file": "models/neptuno.glb",
+      "title": "Neptune 3D Model",
+      "url": "https://science.nasa.gov/resource/neptune-3d-model/",
+      "credit": "NASA / Visualization Technology Applications and Development (VTAD)",
+      "policy": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "status": "team_confirmed",
+      "es": "Descargado del sitio oficial de NASA, según confirma el responsable del proyecto. Ficha de referencia e integridad local documentadas.",
+      "en": "Downloaded from the official NASA website, as confirmed by the project lead. Reference and local integrity documented.",
+      "bytes": 585104,
+      "sha256": "2fc3af08d56ed429b9cc56b95d151102aa5807ea958e7cb8806a42e12a699ba8",
+      "generator": "Khronos Blender glTF 2.0 I/O",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "permiso_es": "Material NASA de origen declarado por el equipo: uso educativo conforme a las directrices NASA, con atribución y excepciones aplicables. No se realizó comparación binaria independiente.",
+      "permiso_en": "NASA material with source confirmed by the team: educational use under NASA guidelines, with attribution and applicable exceptions. No independent binary comparison was performed.",
+      "evidencia_previa": {
+        "es": "Coincidencia de nombre y tamaño publicado (571.39 KB); identidad binaria pendiente.",
+        "en": "Matching subject and published file size (571.39 KB); byte identity pending.",
+        "estado": "match",
+        "permiso_es": "La ficha NASA es compatible. Aplicar la política NASA si se acredita que el archivo es el publicado y no tiene restricciones de terceros.",
+        "permiso_en": "The NASA entry is compatible. NASA policy applies if the file is established as the published asset and no third-party restrictions apply."
+      },
+      "declaracion_equipo": "El responsable confirma que descargó este modelo planetario directamente del sitio web oficial de NASA."
+    },
+    {
+      "group": "models",
+      "file": "models/tierra.glb",
+      "title": "Earth with Clouds 3D Model",
+      "url": "https://science.nasa.gov/resource/earth-with-clouds-3d-model/",
+      "credit": "NASA / Visualization Technology Applications and Development (VTAD)",
+      "policy": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "status": "team_confirmed",
+      "es": "Descargado del sitio oficial de NASA, según confirma el responsable del proyecto. Ficha de referencia e integridad local documentadas.",
+      "en": "Downloaded from the official NASA website, as confirmed by the project lead. Reference and local integrity documented.",
+      "bytes": 18928416,
+      "sha256": "7e81bd2b3499914a5dc0bd6c74eeea0d71d9d0f742391f5447b7ea7f6773c0fd",
+      "generator": "Khronos glTF Blender I/O v5.3.43",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "permiso_es": "Material NASA de origen declarado por el equipo: uso educativo conforme a las directrices NASA, con atribución y excepciones aplicables. No se realizó comparación binaria independiente.",
+      "permiso_en": "NASA material with source confirmed by the team: educational use under NASA guidelines, with attribution and applicable exceptions. No independent binary comparison was performed.",
+      "evidencia_previa": {
+        "es": "Coincidencia de nombre y tamaño publicado (18.05 MB); identidad binaria pendiente.",
+        "en": "Matching subject and published file size (18.05 MB); byte identity pending.",
+        "estado": "match",
+        "permiso_es": "La ficha NASA es compatible. Aplicar la política NASA si se acredita que el archivo es el publicado y no tiene restricciones de terceros.",
+        "permiso_en": "The NASA entry is compatible. NASA policy applies if the file is established as the published asset and no third-party restrictions apply."
+      },
+      "declaracion_equipo": "El responsable confirma que descargó este modelo planetario directamente del sitio web oficial de NASA."
+    },
+    {
+      "group": "models",
+      "file": "models/marte.glb",
+      "title": "Planet Mars, 3D Model",
+      "url": "https://science.nasa.gov/resource/planet-mars-3d-model/",
+      "credit": "NASA/JPL-Caltech",
+      "policy": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "status": "team_confirmed",
+      "es": "Descargado del sitio oficial de NASA, según confirma el responsable del proyecto. Ficha de referencia e integridad local documentadas.",
+      "en": "Downloaded from the official NASA website, as confirmed by the project lead. Reference and local integrity documented.",
+      "bytes": 4032248,
+      "sha256": "1a8df09a953470d2bf4d00ba2c147578b31eb45612230c0c8f11cc9cfa1caff8",
+      "generator": "Khronos glTF Blender I/O v5.3.43",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "permiso_es": "Material NASA de origen declarado por el equipo: uso educativo conforme a las directrices NASA, con atribución y excepciones aplicables. No se realizó comparación binaria independiente.",
+      "permiso_en": "NASA material with source confirmed by the team: educational use under NASA guidelines, with attribution and applicable exceptions. No independent binary comparison was performed.",
+      "evidencia_previa": {
+        "es": "Coincidencia de nombre y tamaño publicado (3.85 MB); identidad binaria pendiente.",
+        "en": "Matching subject and published file size (3.85 MB); byte identity pending.",
+        "estado": "match",
+        "permiso_es": "La ficha NASA es compatible. Aplicar la política NASA si se acredita que el archivo es el publicado y no tiene restricciones de terceros.",
+        "permiso_en": "The NASA entry is compatible. NASA policy applies if the file is established as the published asset and no third-party restrictions apply."
+      },
+      "declaracion_equipo": "El responsable confirma que descargó este modelo planetario directamente del sitio web oficial de NASA."
+    },
+    {
+      "group": "models",
+      "file": "models/mercurio.glb",
+      "title": "Mercury 3D Model",
+      "url": "https://science.nasa.gov/resource/mercury-3d-model/",
+      "credit": "NASA (origen declarado / reported source); NASA VTAD (crédito de la ficha / reference credit)",
+      "policy": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "status": "team_confirmed",
+      "es": "Descargado del sitio oficial de NASA, según confirma el responsable del proyecto. Ficha de referencia e integridad local documentadas. La textura coincide píxel a píxel con solar-assets/mercurio.jpg.",
+      "en": "Downloaded from the official NASA website, as confirmed by the project lead. Reference and local integrity documented. Its texture matches solar-assets/mercurio.jpg pixel for pixel.",
+      "bytes": 497352,
+      "sha256": "b9c2e742e52e100ba1c88941bf53de862f07e8f1730333e4144998ce01bd7027",
+      "generator": "https://github.com/mikedh/trimesh",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "permiso_es": "Material NASA de origen declarado por el equipo: uso educativo conforme a las directrices NASA, con atribución y excepciones aplicables. No se realizó comparación binaria independiente.",
+      "permiso_en": "NASA material with source confirmed by the team: educational use under NASA guidelines, with attribution and applicable exceptions. No independent binary comparison was performed.",
+      "evidencia_previa": {
+        "es": "El GLB contiene una textura idéntica píxel a píxel a solar-assets/mercurio.jpg; sistema-solar.js describe esta textura como ilustrativa generada para la escena. No se ha acreditado autoría original. La ficha NASA VTAD ofrece 2.91 MB; el archivo local tiene 497352 bytes. La versión exacta o posible adaptación no se ha establecido.",
+        "en": "The GLB embeds a pixel-identical copy of solar-assets/mercurio.jpg; sistema-solar.js describes it as an illustrative texture generated for the scene. Original authorship is not established. The NASA VTAD entry offers 2.91 MB; the local file has 497352 bytes. The exact version or possible adaptation has not been established.",
+        "estado": "candidate",
+        "permiso_es": "Referencia contextual; no acredita autorización del archivo local. Se debe identificar el original o sustituirlo por uno autorizado.",
+        "permiso_en": "Contextual reference; does not establish authorization for the local file. Identify the original or replace it with an authorized asset."
+      },
+      "declaracion_equipo": "El responsable confirma que descargó este modelo planetario directamente del sitio web oficial de NASA."
+    },
+    {
+      "group": "models",
+      "file": "models/luna.glb",
+      "title": "Moon 3D Models for Web, AR, and Animation",
+      "url": "https://svs.gsfc.nasa.gov/14959/",
+      "credit": "NASA Goddard Space Flight Center; Dan Gallagher (producer) — reference / referencia",
+      "policy": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "status": "team_confirmed",
+      "es": "Modelo de origen NASA confirmado por el equipo; la ficha es una referencia, no una identificación binaria.",
+      "en": "NASA source confirmed by the team; the linked entry is contextual, not a binary match.",
+      "bytes": 13889476,
+      "sha256": "a14ba626bda321fd5a2b90590db93f1e4c92dfb4f552ee1390de5dda477ec6eb",
+      "generator": "Khronos glTF Blender I/O v5.3.43",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "permiso_es": "Procedencia NASA declarada por el equipo; uso de materiales propios de NASA conforme a su política y excepciones, incluidos créditos y derechos de terceros. No se comprobó el archivo original remoto ni los permisos particulares de terceros.",
+      "permiso_en": "NASA provenance reported by the team; use of NASA-owned material is subject to NASA policy, attribution and exceptions, including third-party rights. The remote original and any individual third-party permissions were not independently verified.",
+      "evidencia_previa": {
+        "es": "Ficha NASA SVS 14959: moon_small.glb (13.2 MB), tamaño compatible con el local (13.25 MiB). Referencia plausible, no identidad confirmada.",
+        "en": "NASA SVS 14959: moon_small.glb (13.2 MB), compatible with local size (13.25 MiB). Plausible reference, identity not confirmed.",
+        "estado": "candidate",
+        "permiso_es": "Referencia contextual; no acredita autorización del archivo local. Se debe identificar el original o sustituirlo por uno autorizado.",
+        "permiso_en": "Contextual reference; does not establish authorization for the local file. Identify the original or replace it with an authorized asset."
+      },
+      "declaracion_equipo": "Confirmación del responsable del proyecto, 15/11/2026.",
+      "evidencia_anterior_a_confirmacion_final": {
+        "status": "team_confirmed",
+        "es": "Modelo verificado por el equipo; ficha de referencia e integridad local documentadas.",
+        "en": "Model verified by the team; reference and local integrity documented.",
+        "credit": "NASA Goddard Space Flight Center; Dan Gallagher (producer) — reference / referencia",
+        "permiso_es": "Verificación declarada por el equipo; la comparación binaria independiente con el original no se realizó. La política NASA permite usos educativos de sus propios materiales con atribución y sus excepciones; no cubre derechos de terceros.",
+        "permiso_en": "Verification reported by the team; independent comparison against the original was not performed. NASA policy permits educational use of its own materials with attribution and applicable exceptions; it does not cover third-party rights."
+      }
+    },
+    {
+      "group": "models",
+      "file": "models/apollo-11.glb",
+      "title": "Apollo 11",
+      "url": "https://science.nasa.gov/mission/apollo-11/",
+      "credit": "ChatGPT (OpenAI) + Cosmic Legacy",
+      "policy": "",
+      "status": "ai",
+      "es": "Recreación educativa creada con ChatGPT (OpenAI) para Cosmic Legacy. No es un modelo oficial de NASA.",
+      "en": "Educational recreation created with ChatGPT (OpenAI) for Cosmic Legacy. Not an official NASA model.",
+      "bytes": 123788,
+      "sha256": "0011a2b5bdbd3ddbc37dd4c43572ad3e9bd82008bd51313c98bf849de9a3fe12",
+      "generator": "https://github.com/mikedh/trimesh",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "permiso_es": "Los términos de OpenAI atribuyen al usuario los derechos que OpenAI tenga sobre sus resultados, en la medida permitida por ley; se mantienen las obligaciones relativas a materiales de terceros y la política de la fuente original.",
+      "permiso_en": "OpenAI terms assign to the user any rights OpenAI has in its output, to the extent permitted by law; third-party rights and the original source policy still apply.",
+      "evidencia_previa": {
+        "es": "Recreación educativa asistida por IA según el proyecto; confirmar herramientas, autoría y derechos. No es modelo oficial NASA.",
+        "en": "AI-assisted educational recreation per project disclosure; confirm tools, authorship and rights. Not an official NASA model."
+      },
+      "herramienta_ia": "ChatGPT (OpenAI)",
+      "declaracion_equipo": "El responsable del proyecto confirma que ChatGPT creó los recursos identificados como IA.",
+      "policy_ai": "https://openai.com/policies/terms-of-use/"
+    },
+    {
+      "group": "models",
+      "file": "models/surveyor-3.glb",
+      "title": "Surveyor 3",
+      "url": "https://science.nasa.gov/mission/surveyor-3/",
+      "credit": "ChatGPT (OpenAI) + Cosmic Legacy",
+      "policy": "",
+      "status": "ai",
+      "es": "Recreación educativa creada con ChatGPT (OpenAI) para Cosmic Legacy. No es un modelo oficial de NASA.",
+      "en": "Educational recreation created with ChatGPT (OpenAI) for Cosmic Legacy. Not an official NASA model.",
+      "bytes": 185012,
+      "sha256": "08e196bc40c06609c4a3c0838d585c840cb6d9c49220f930db74442ebd0a6e8f",
+      "generator": "https://github.com/mikedh/trimesh",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "permiso_es": "Los términos de OpenAI atribuyen al usuario los derechos que OpenAI tenga sobre sus resultados, en la medida permitida por ley; se mantienen las obligaciones relativas a materiales de terceros y la política de la fuente original.",
+      "permiso_en": "OpenAI terms assign to the user any rights OpenAI has in its output, to the extent permitted by law; third-party rights and the original source policy still apply.",
+      "evidencia_previa": {
+        "es": "Recreación educativa asistida por IA según el proyecto; confirmar herramientas, autoría y derechos. No es modelo oficial NASA.",
+        "en": "AI-assisted educational recreation per project disclosure; confirm tools, authorship and rights. Not an official NASA model."
+      },
+      "herramienta_ia": "ChatGPT (OpenAI)",
+      "declaracion_equipo": "El responsable del proyecto confirma que ChatGPT creó los recursos identificados como IA.",
+      "policy_ai": "https://openai.com/policies/terms-of-use/"
+    },
+    {
+      "group": "images",
+      "file": "img/astronauta-eagle.jpg",
+      "title": "Apollo 11 · AS11-40-5927",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo11.html",
+      "credit": "NASA / Neil Armstrong",
+      "policy": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "status": "documented",
+      "es": "La imagen local coincide visualmente con la publicación identificada; la versión local es una adaptación o reducción. No se compararon los archivos binarios remotos.",
+      "en": "The local image visually matches the identified publication; the local file is an adapted or resized version. Remote files were not compared byte-for-byte.",
+      "bytes": 55052,
+      "sha256": "1dbf5292443dcab4cdcb0ff3a51af57693d1d238f3b25409857b05bf3caef3ef",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "dimensiones_px": [
+        640,
+        480
+      ],
+      "permiso_es": "Uso educativo cubierto por la política de NASA para sus propios materiales, sujeto a atribución y excepciones. No implica aval institucional.",
+      "permiso_en": "Educational use is covered by NASA policy for its own materials, subject to attribution and exceptions. No institutional endorsement is implied.",
+      "evidencia_revision": {
+        "metodo": "Comparación visual de la imagen local con la publicación pública",
+        "fuentes_adicionales": [
+          "https://eol.jsc.nasa.gov/SearchPhotos/photo.pl?frame=5927&mission=AS11&roll=40",
+          "https://commons.wikimedia.org/wiki/File:As11-40-5927.jpg"
+        ],
+        "identidad_binaria": "No comprobada"
+      }
+    },
+    {
+      "group": "images",
+      "file": "img/eagle.jpg",
+      "title": "Apollo 11 · AS11-40-5927",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo11.html",
+      "credit": "NASA / Neil Armstrong",
+      "policy": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "status": "documented",
+      "es": "La imagen local coincide visualmente con la publicación identificada; la versión local es una adaptación o reducción. No se compararon los archivos binarios remotos.",
+      "en": "The local image visually matches the identified publication; the local file is an adapted or resized version. Remote files were not compared byte-for-byte.",
+      "bytes": 51400,
+      "sha256": "2705b84094d5da2dd0e243dd8a0b8d09dfb5d09077ee61b470e2ae55bccc0aec",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "dimensiones_px": [
+        640,
+        480
+      ],
+      "permiso_es": "Uso educativo cubierto por la política de NASA para sus propios materiales, sujeto a atribución y excepciones. No implica aval institucional.",
+      "permiso_en": "Educational use is covered by NASA policy for its own materials, subject to attribution and exceptions. No institutional endorsement is implied.",
+      "evidencia_revision": {
+        "metodo": "Comparación visual de la imagen local con la publicación pública",
+        "fuentes_adicionales": [
+          "https://eol.jsc.nasa.gov/SearchPhotos/photo.pl?frame=5927&mission=AS11&roll=40",
+          "https://commons.wikimedia.org/wiki/File:As11-40-5927.jpg"
+        ],
+        "identidad_binaria": "No comprobada"
+      }
+    },
+    {
+      "group": "images",
+      "file": "img/ingenuity.jpg",
+      "title": "PIA26236 · Perseverance Spots Ingenuity at Its Final Airfield (reference)",
+      "url": "https://www.jpl.nasa.gov/images/pia26236-perseverance-spots-ingenuity-at-its-final-airfield/",
+      "credit": "NASA (procedencia declarada por el equipo / team-reported source); autoría del montaje no identificada / montage authorship unidentified",
+      "policy": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "status": "team_confirmed",
+      "es": "El equipo confirma procedencia NASA. El archivo es un montaje de dos fotografías; no se identificó la publicación exacta ni el autor de la composición. PIA26236 es referencia contextual, no el montaje completo.",
+      "en": "The team confirms NASA provenance. The file is a two-photo montage; its exact publication and montage author remain unidentified. PIA26236 is a contextual reference, not the complete montage.",
+      "bytes": 281899,
+      "sha256": "c7e8547b55b5a1a5be81cd175abf69390bda90b45907ffcc35f2030d92d393a9",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "dimensiones_px": [
+        899,
+        900
+      ],
+      "permiso_es": "Procedencia NASA declarada por el equipo; uso de materiales propios de NASA conforme a su política y excepciones, incluidos créditos y derechos de terceros. No se comprobó el archivo original remoto ni los permisos particulares de terceros.",
+      "permiso_en": "NASA provenance reported by the team; use of NASA-owned material is subject to NASA policy, attribution and exceptions, including third-party rights. The remote original and any individual third-party permissions were not independently verified.",
+      "referencias_contextuales": [
+        "https://science.nasa.gov/photojournal/ingenuitys-blades-are-released/",
+        "https://science.nasa.gov/photojournal/ingenuity-at-valinor-hills/"
+      ],
+      "evidencia_anterior_a_confirmacion_final": {
+        "status": "candidate",
+        "es": "Montaje de dos fotografías, con círculo rojo añadido. Se consultó PIA26236, pero esta publicación no corresponde al montaje completo. Autor del montaje y fuentes exactas pendientes.",
+        "en": "Two-photo montage with an added red circle. PIA26236 was consulted, but it does not match the complete montage. The montage author and exact sources remain unconfirmed.",
+        "credit": "Autor del montaje no identificado / Montage author unidentified",
+        "permiso_es": "No se puede acreditar el montaje completo con la ficha PIA26236. Identificar el autor y las fuentes o sustituir el recurso por una imagen oficial acreditada.",
+        "permiso_en": "PIA26236 does not establish rights to the whole montage. Identify its author and sources or replace with an attributed official image."
+      },
+      "declaracion_equipo": "Confirmación del responsable del proyecto, 15/11/2026."
+    },
+    {
+      "group": "images",
+      "file": "img/near.jpg",
+      "title": "NEAR Shoemaker · PIA18177 (artist’s concept)",
+      "url": "https://www.jpl.nasa.gov/images/pia18177-nasas-near-spacecrafts-rendezvous-with-asteroid-eros-artists-concept/",
+      "credit": "NASA",
+      "policy": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "status": "documented",
+      "es": "La imagen local coincide visualmente con la publicación identificada; la versión local es una adaptación o reducción. No se compararon los archivos binarios remotos.",
+      "en": "The local image visually matches the identified publication; the local file is an adapted or resized version. Remote files were not compared byte-for-byte.",
+      "bytes": 125272,
+      "sha256": "2297e607b6a7b29e579212d7eedaaed6a1c864b5aeb7f4795e37bd68d6000fba",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "dimensiones_px": [
+        900,
+        682
+      ],
+      "permiso_es": "Uso educativo cubierto por la política de NASA para sus propios materiales, sujeto a atribución y excepciones. No implica aval institucional.",
+      "permiso_en": "Educational use is covered by NASA policy for its own materials, subject to attribution and exceptions. No institutional endorsement is implied.",
+      "evidencia_revision": {
+        "metodo": "Comparación visual de la imagen local con la publicación pública",
+        "fuentes_adicionales": [
+          "https://d2pn8kiwq2w21t.cloudfront.net/original_images/jpegPIA18177.jpg"
+        ],
+        "identidad_binaria": "No comprobada"
+      }
+    },
+    {
+      "group": "images",
+      "file": "img/pioneer.jpg",
+      "title": "Pioneer 10 at Jupiter (artist’s concept)",
+      "url": "https://science.nasa.gov/resource/pioneer-10-at-jupiter-artists-concept/",
+      "credit": "NASA",
+      "policy": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "status": "documented",
+      "es": "La imagen local coincide visualmente con la publicación identificada; la versión local es una adaptación o reducción. No se compararon los archivos binarios remotos.",
+      "en": "The local image visually matches the identified publication; the local file is an adapted or resized version. Remote files were not compared byte-for-byte.",
+      "bytes": 102731,
+      "sha256": "f05a4adeef9b6a298e81f27ec6ea1a9c35ebbc804819ee43ce95f34f0558278d",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "dimensiones_px": [
+        900,
+        569
+      ],
+      "permiso_es": "Uso educativo cubierto por la política de NASA para sus propios materiales, sujeto a atribución y excepciones. No implica aval institucional.",
+      "permiso_en": "Educational use is covered by NASA policy for its own materials, subject to attribution and exceptions. No institutional endorsement is implied.",
+      "evidencia_revision": {
+        "metodo": "Comparación visual de la imagen local con la publicación pública",
+        "fuentes_adicionales": [],
+        "identidad_binaria": "No comprobada"
+      }
+    },
+    {
+      "group": "textures",
+      "file": "solar-assets/jupiter.jpg",
+      "title": "NASA 3D Resources · textures",
+      "url": "https://science.nasa.gov/3d-resources/",
+      "credit": "NASA (origen declarado por el equipo / team-reported origin)",
+      "policy": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "status": "team_confirmed",
+      "es": "Origen NASA declarado por el equipo. La documentación histórica del módulo la describe como textura ilustrativa generada para la escena; no se identificó la descarga o transformación exacta. No es un mapa científico validado.",
+      "en": "NASA origin reported by the team. Historical module documentation describes it as an illustrative scene texture; the exact download or transformation remains unidentified. Not a validated scientific map.",
+      "bytes": 74845,
+      "sha256": "353bec7f313d1a925cf8e5d47c91c70b449b2391dbc455402c17739c0b372e02",
+      "source_note": "sistema-solar.js, lines 5–8 (existing project documentation)",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "dimensiones_px": [
+        1024,
+        512
+      ],
+      "permiso_es": "Procedencia NASA declarada por el equipo; uso de materiales propios de NASA conforme a su política y excepciones, incluidos créditos y derechos de terceros. No se comprobó el archivo original remoto ni los permisos particulares de terceros.",
+      "permiso_en": "NASA provenance reported by the team; use of NASA-owned material is subject to NASA policy, attribution and exceptions, including third-party rights. The remote original and any individual third-party permissions were not independently verified.",
+      "evidencia_anterior_a_confirmacion_final": {
+        "status": "unknown",
+        "es": "Según la documentación del módulo, textura ilustrativa generada para la escena. El autor, herramienta y procedimiento originales no están identificados.",
+        "en": "According to the module documentation, illustrative texture generated for the scene. Original author, tool and procedure are not identified.",
+        "credit": "Documentación del proyecto / Project documentation",
+        "permiso_es": "Referencia contextual; no acredita autorización del archivo local. Se debe identificar el original o sustituirlo por uno autorizado.",
+        "permiso_en": "Contextual reference; does not establish authorization for the local file. Identify the original or replace it with an authorized asset."
+      },
+      "declaracion_equipo": "Confirmación del responsable del proyecto, 15/11/2026."
+    },
+    {
+      "group": "textures",
+      "file": "solar-assets/luna.jpg",
+      "title": "Moon 3D Models for Web, AR, and Animation · reference",
+      "url": "https://svs.gsfc.nasa.gov/14959/",
+      "credit": "NASA (origen declarado por el equipo / team-reported origin)",
+      "policy": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "status": "team_confirmed",
+      "es": "Textura ligera derivada de un modelo GLB según la documentación del módulo. El equipo confirma que el modelo de origen procede de NASA; la conversión exacta no se verificó.",
+      "en": "Lightweight texture derived from a GLB according to module documentation. The team confirms the source model came from NASA; the exact conversion was not independently verified.",
+      "bytes": 160564,
+      "sha256": "5c0443d9550b31ddfd6adfa5b7efe54e45a4c89b9c465b008a2ac8b8603c620c",
+      "source_note": "sistema-solar.js, lines 5–8 (existing project documentation)",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "dimensiones_px": [
+        1024,
+        512
+      ],
+      "permiso_es": "Procedencia NASA declarada por el equipo; uso de materiales propios de NASA conforme a su política y excepciones, incluidos créditos y derechos de terceros. No se comprobó el archivo original remoto ni los permisos particulares de terceros.",
+      "permiso_en": "NASA provenance reported by the team; use of NASA-owned material is subject to NASA policy, attribution and exceptions, including third-party rights. The remote original and any individual third-party permissions were not independently verified.",
+      "evidencia_anterior_a_confirmacion_final": {
+        "status": "unknown",
+        "es": "Según la documentación del módulo, versión panorámica ligera derivada de modelos GLB entregados. No se conserva la receta de conversión ni la fuente exacta.",
+        "en": "According to the module documentation, lightweight panoramic derivative of supplied GLB models. Original conversion recipe and exact source are not preserved.",
+        "credit": "Documentación del proyecto / Project documentation",
+        "permiso_es": "Referencia contextual; no acredita autorización del archivo local. Se debe identificar el original o sustituirlo por uno autorizado.",
+        "permiso_en": "Contextual reference; does not establish authorization for the local file. Identify the original or replace it with an authorized asset."
+      },
+      "declaracion_equipo": "Confirmación del responsable del proyecto, 15/11/2026."
+    },
+    {
+      "group": "textures",
+      "file": "solar-assets/marte.jpg",
+      "title": "Planet Mars, 3D Model · reference",
+      "url": "https://science.nasa.gov/resource/planet-mars-3d-model/",
+      "credit": "NASA (origen declarado por el equipo / team-reported origin)",
+      "policy": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "status": "team_confirmed",
+      "es": "Textura ligera derivada de un modelo GLB según la documentación del módulo. El equipo confirma que el modelo de origen procede de NASA; la conversión exacta no se verificó.",
+      "en": "Lightweight texture derived from a GLB according to module documentation. The team confirms the source model came from NASA; the exact conversion was not independently verified.",
+      "bytes": 130709,
+      "sha256": "4ce830118726b188c0b81b385fbf3e6349b80c1d0eb55e492d93d4a2b2e08f83",
+      "source_note": "sistema-solar.js, lines 5–8 (existing project documentation)",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "dimensiones_px": [
+        1024,
+        512
+      ],
+      "permiso_es": "Procedencia NASA declarada por el equipo; uso de materiales propios de NASA conforme a su política y excepciones, incluidos créditos y derechos de terceros. No se comprobó el archivo original remoto ni los permisos particulares de terceros.",
+      "permiso_en": "NASA provenance reported by the team; use of NASA-owned material is subject to NASA policy, attribution and exceptions, including third-party rights. The remote original and any individual third-party permissions were not independently verified.",
+      "evidencia_anterior_a_confirmacion_final": {
+        "status": "unknown",
+        "es": "Según la documentación del módulo, versión panorámica ligera derivada de modelos GLB entregados. No se conserva la receta de conversión ni la fuente exacta.",
+        "en": "According to the module documentation, lightweight panoramic derivative of supplied GLB models. Original conversion recipe and exact source are not preserved.",
+        "credit": "Documentación del proyecto / Project documentation",
+        "permiso_es": "Referencia contextual; no acredita autorización del archivo local. Se debe identificar el original o sustituirlo por uno autorizado.",
+        "permiso_en": "Contextual reference; does not establish authorization for the local file. Identify the original or replace it with an authorized asset."
+      },
+      "declaracion_equipo": "Confirmación del responsable del proyecto, 15/11/2026."
+    },
+    {
+      "group": "textures",
+      "file": "solar-assets/mercurio.jpg",
+      "title": "NASA 3D Resources · textures",
+      "url": "https://science.nasa.gov/3d-resources/",
+      "credit": "NASA (origen declarado por el equipo / team-reported origin)",
+      "policy": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "status": "team_confirmed",
+      "es": "Coincidencia exacta de píxeles con la textura del GLB local, cuyo origen NASA confirma el equipo. No se comparó con una descarga remota.",
+      "en": "Exact pixel match with the embedded texture of the local GLB, whose NASA source is confirmed by the team. No remote comparison was performed.",
+      "bytes": 77293,
+      "sha256": "39f9b7092d827b4b927d468186f244ad3090bc3e1716925a8fa9a5a597810f29",
+      "source_note": "sistema-solar.js, lines 5–8 (existing project documentation)",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "dimensiones_px": [
+        1024,
+        512
+      ],
+      "permiso_es": "Procedencia NASA declarada por el equipo; uso de materiales propios de NASA conforme a su política y excepciones, incluidos créditos y derechos de terceros. No se comprobó el archivo original remoto ni los permisos particulares de terceros.",
+      "permiso_en": "NASA provenance reported by the team; use of NASA-owned material is subject to NASA policy, attribution and exceptions, including third-party rights. The remote original and any individual third-party permissions were not independently verified.",
+      "relacion_modelo": "Igualdad de píxeles verificada con models/mercurio.glb; el equipo confirma la verificación del modelo. Autoría independiente de la textura no establecida.",
+      "evidencia_revision": {
+        "metodo": "Comparación exacta de píxeles RGB con imagen embebida en GLB",
+        "indices_imagen_glb": [
+          0
+        ],
+        "modelo": "models/mercurio.glb",
+        "limite": "Coincidencia de contenido local; no prueba identidad de versión con original remoto ni autoría independiente."
+      },
+      "evidencia_anterior_a_confirmacion_final": {
+        "status": "unknown",
+        "es": "Según la documentación del módulo, textura ilustrativa generada para la escena. El autor, herramienta y procedimiento originales no están identificados. Se comprobó igualdad de píxeles con la textura embebida en models/mercurio.glb; esto no demuestra autoría.",
+        "en": "According to the module documentation, illustrative texture generated for the scene. Original author, tool and procedure are not identified. Pixel equality with the embedded models/mercurio.glb texture was confirmed; this does not establish authorship.",
+        "credit": "Documentación del proyecto / Project documentation",
+        "permiso_es": "Referencia contextual; no acredita autorización del archivo local. Se debe identificar el original o sustituirlo por uno autorizado.",
+        "permiso_en": "Contextual reference; does not establish authorization for the local file. Identify the original or replace it with an authorized asset."
+      },
+      "declaracion_equipo": "Confirmación del responsable del proyecto, 15/11/2026."
+    },
+    {
+      "group": "textures",
+      "file": "solar-assets/neptuno.jpg",
+      "title": "NASA 3D Resources · textures",
+      "url": "https://science.nasa.gov/3d-resources/",
+      "credit": "NASA (origen declarado por el equipo / team-reported origin)",
+      "policy": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "status": "team_confirmed",
+      "es": "Origen NASA declarado por el equipo. La documentación histórica del módulo la describe como textura ilustrativa generada para la escena; no se identificó la descarga o transformación exacta. No es un mapa científico validado.",
+      "en": "NASA origin reported by the team. Historical module documentation describes it as an illustrative scene texture; the exact download or transformation remains unidentified. Not a validated scientific map.",
+      "bytes": 49440,
+      "sha256": "74f0eabd0cb03c04d68152912d4a3bba7b251df54326fb1d79ea28333d03e638",
+      "source_note": "sistema-solar.js, lines 5–8 (existing project documentation)",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "dimensiones_px": [
+        1024,
+        512
+      ],
+      "permiso_es": "Procedencia NASA declarada por el equipo; uso de materiales propios de NASA conforme a su política y excepciones, incluidos créditos y derechos de terceros. No se comprobó el archivo original remoto ni los permisos particulares de terceros.",
+      "permiso_en": "NASA provenance reported by the team; use of NASA-owned material is subject to NASA policy, attribution and exceptions, including third-party rights. The remote original and any individual third-party permissions were not independently verified.",
+      "evidencia_anterior_a_confirmacion_final": {
+        "status": "unknown",
+        "es": "Según la documentación del módulo, textura ilustrativa generada para la escena. El autor, herramienta y procedimiento originales no están identificados.",
+        "en": "According to the module documentation, illustrative texture generated for the scene. Original author, tool and procedure are not identified.",
+        "credit": "Documentación del proyecto / Project documentation",
+        "permiso_es": "Referencia contextual; no acredita autorización del archivo local. Se debe identificar el original o sustituirlo por uno autorizado.",
+        "permiso_en": "Contextual reference; does not establish authorization for the local file. Identify the original or replace it with an authorized asset."
+      },
+      "declaracion_equipo": "Confirmación del responsable del proyecto, 15/11/2026."
+    },
+    {
+      "group": "textures",
+      "file": "solar-assets/saturno.jpg",
+      "title": "Saturn 3D Model · reference",
+      "url": "https://science.nasa.gov/resource/saturn-3d-model/",
+      "credit": "NASA (origen declarado por el equipo / team-reported origin)",
+      "policy": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "status": "team_confirmed",
+      "es": "Textura ligera derivada de un modelo GLB según la documentación del módulo. El equipo confirma que el modelo de origen procede de NASA; la conversión exacta no se verificó.",
+      "en": "Lightweight texture derived from a GLB according to module documentation. The team confirms the source model came from NASA; the exact conversion was not independently verified.",
+      "bytes": 64727,
+      "sha256": "7b378060ff38bd17bee00ad7b7c331517a4ca766e2f7b6742553a722c0c155d3",
+      "source_note": "sistema-solar.js, lines 5–8 (existing project documentation)",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "dimensiones_px": [
+        1024,
+        512
+      ],
+      "permiso_es": "Procedencia NASA declarada por el equipo; uso de materiales propios de NASA conforme a su política y excepciones, incluidos créditos y derechos de terceros. No se comprobó el archivo original remoto ni los permisos particulares de terceros.",
+      "permiso_en": "NASA provenance reported by the team; use of NASA-owned material is subject to NASA policy, attribution and exceptions, including third-party rights. The remote original and any individual third-party permissions were not independently verified.",
+      "evidencia_anterior_a_confirmacion_final": {
+        "status": "unknown",
+        "es": "Según la documentación del módulo, versión panorámica ligera derivada de modelos GLB entregados. No se conserva la receta de conversión ni la fuente exacta.",
+        "en": "According to the module documentation, lightweight panoramic derivative of supplied GLB models. Original conversion recipe and exact source are not preserved.",
+        "credit": "Documentación del proyecto / Project documentation",
+        "permiso_es": "Referencia contextual; no acredita autorización del archivo local. Se debe identificar el original o sustituirlo por uno autorizado.",
+        "permiso_en": "Contextual reference; does not establish authorization for the local file. Identify the original or replace it with an authorized asset."
+      },
+      "declaracion_equipo": "Confirmación del responsable del proyecto, 15/11/2026."
+    },
+    {
+      "group": "textures",
+      "file": "solar-assets/sol.jpg",
+      "title": "NASA 3D Resources · textures",
+      "url": "https://science.nasa.gov/3d-resources/",
+      "credit": "NASA (origen declarado por el equipo / team-reported origin)",
+      "policy": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "status": "team_confirmed",
+      "es": "Origen NASA declarado por el equipo. La documentación histórica del módulo la describe como textura ilustrativa generada para la escena; no se identificó la descarga o transformación exacta. No es un mapa científico validado.",
+      "en": "NASA origin reported by the team. Historical module documentation describes it as an illustrative scene texture; the exact download or transformation remains unidentified. Not a validated scientific map.",
+      "bytes": 47639,
+      "sha256": "f1d5114c028bbbc6f1dbd4e9a000873022d47bdcd2bdf3ce7ae5cde063448d03",
+      "source_note": "sistema-solar.js, lines 5–8 (existing project documentation)",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "dimensiones_px": [
+        1024,
+        512
+      ],
+      "permiso_es": "Procedencia NASA declarada por el equipo; uso de materiales propios de NASA conforme a su política y excepciones, incluidos créditos y derechos de terceros. No se comprobó el archivo original remoto ni los permisos particulares de terceros.",
+      "permiso_en": "NASA provenance reported by the team; use of NASA-owned material is subject to NASA policy, attribution and exceptions, including third-party rights. The remote original and any individual third-party permissions were not independently verified.",
+      "evidencia_anterior_a_confirmacion_final": {
+        "status": "unknown",
+        "es": "Según la documentación del módulo, textura ilustrativa generada para la escena. El autor, herramienta y procedimiento originales no están identificados.",
+        "en": "According to the module documentation, illustrative texture generated for the scene. Original author, tool and procedure are not identified.",
+        "credit": "Documentación del proyecto / Project documentation",
+        "permiso_es": "Referencia contextual; no acredita autorización del archivo local. Se debe identificar el original o sustituirlo por uno autorizado.",
+        "permiso_en": "Contextual reference; does not establish authorization for the local file. Identify the original or replace it with an authorized asset."
+      },
+      "declaracion_equipo": "Confirmación del responsable del proyecto, 15/11/2026."
+    },
+    {
+      "group": "textures",
+      "file": "solar-assets/tierra.jpg",
+      "title": "Earth with Clouds 3D Model · reference",
+      "url": "https://science.nasa.gov/resource/earth-with-clouds-3d-model/",
+      "credit": "NASA (origen declarado por el equipo / team-reported origin)",
+      "policy": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "status": "team_confirmed",
+      "es": "Textura ligera derivada de un modelo GLB según la documentación del módulo. El equipo confirma que el modelo de origen procede de NASA; la conversión exacta no se verificó.",
+      "en": "Lightweight texture derived from a GLB according to module documentation. The team confirms the source model came from NASA; the exact conversion was not independently verified.",
+      "bytes": 287080,
+      "sha256": "eb247e0eb86a94243431c82f1decba0cb64ff28fcae08ef9028149d8a4efe35e",
+      "source_note": "sistema-solar.js, lines 5–8 (existing project documentation)",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "dimensiones_px": [
+        1024,
+        512
+      ],
+      "permiso_es": "Procedencia NASA declarada por el equipo; uso de materiales propios de NASA conforme a su política y excepciones, incluidos créditos y derechos de terceros. No se comprobó el archivo original remoto ni los permisos particulares de terceros.",
+      "permiso_en": "NASA provenance reported by the team; use of NASA-owned material is subject to NASA policy, attribution and exceptions, including third-party rights. The remote original and any individual third-party permissions were not independently verified.",
+      "evidencia_anterior_a_confirmacion_final": {
+        "status": "unknown",
+        "es": "Según la documentación del módulo, versión panorámica ligera derivada de modelos GLB entregados. No se conserva la receta de conversión ni la fuente exacta.",
+        "en": "According to the module documentation, lightweight panoramic derivative of supplied GLB models. Original conversion recipe and exact source are not preserved.",
+        "credit": "Documentación del proyecto / Project documentation",
+        "permiso_es": "Referencia contextual; no acredita autorización del archivo local. Se debe identificar el original o sustituirlo por uno autorizado.",
+        "permiso_en": "Contextual reference; does not establish authorization for the local file. Identify the original or replace it with an authorized asset."
+      },
+      "declaracion_equipo": "Confirmación del responsable del proyecto, 15/11/2026."
+    },
+    {
+      "group": "textures",
+      "file": "solar-assets/urano.jpg",
+      "title": "NASA 3D Resources · textures",
+      "url": "https://science.nasa.gov/3d-resources/",
+      "credit": "NASA (origen declarado por el equipo / team-reported origin)",
+      "policy": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "status": "team_confirmed",
+      "es": "Origen NASA declarado por el equipo. La documentación histórica del módulo la describe como textura ilustrativa generada para la escena; no se identificó la descarga o transformación exacta. No es un mapa científico validado.",
+      "en": "NASA origin reported by the team. Historical module documentation describes it as an illustrative scene texture; the exact download or transformation remains unidentified. Not a validated scientific map.",
+      "bytes": 23845,
+      "sha256": "9bc751c3c41dfc518d0d303ac3dc56dd435f152bc10f60af238f8ed746c6ef19",
+      "source_note": "sistema-solar.js, lines 5–8 (existing project documentation)",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "dimensiones_px": [
+        1024,
+        512
+      ],
+      "permiso_es": "Procedencia NASA declarada por el equipo; uso de materiales propios de NASA conforme a su política y excepciones, incluidos créditos y derechos de terceros. No se comprobó el archivo original remoto ni los permisos particulares de terceros.",
+      "permiso_en": "NASA provenance reported by the team; use of NASA-owned material is subject to NASA policy, attribution and exceptions, including third-party rights. The remote original and any individual third-party permissions were not independently verified.",
+      "evidencia_anterior_a_confirmacion_final": {
+        "status": "unknown",
+        "es": "Según la documentación del módulo, textura ilustrativa generada para la escena. El autor, herramienta y procedimiento originales no están identificados.",
+        "en": "According to the module documentation, illustrative texture generated for the scene. Original author, tool and procedure are not identified.",
+        "credit": "Documentación del proyecto / Project documentation",
+        "permiso_es": "Referencia contextual; no acredita autorización del archivo local. Se debe identificar el original o sustituirlo por uno autorizado.",
+        "permiso_en": "Contextual reference; does not establish authorization for the local file. Identify the original or replace it with an authorized asset."
+      },
+      "declaracion_equipo": "Confirmación del responsable del proyecto, 15/11/2026."
+    },
+    {
+      "group": "textures",
+      "file": "solar-assets/venus.jpg",
+      "title": "NASA 3D Resources · textures",
+      "url": "https://science.nasa.gov/3d-resources/",
+      "credit": "NASA (origen declarado por el equipo / team-reported origin)",
+      "policy": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "status": "team_confirmed",
+      "es": "Origen NASA declarado por el equipo. La documentación histórica del módulo la describe como textura ilustrativa generada para la escena; no se identificó la descarga o transformación exacta. No es un mapa científico validado.",
+      "en": "NASA origin reported by the team. Historical module documentation describes it as an illustrative scene texture; the exact download or transformation remains unidentified. Not a validated scientific map.",
+      "bytes": 45743,
+      "sha256": "25477fd9997abaaceeef23edde02808af4398877482ec01943c045200b87b3e4",
+      "source_note": "sistema-solar.js, lines 5–8 (existing project documentation)",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "dimensiones_px": [
+        1024,
+        512
+      ],
+      "permiso_es": "Procedencia NASA declarada por el equipo; uso de materiales propios de NASA conforme a su política y excepciones, incluidos créditos y derechos de terceros. No se comprobó el archivo original remoto ni los permisos particulares de terceros.",
+      "permiso_en": "NASA provenance reported by the team; use of NASA-owned material is subject to NASA policy, attribution and exceptions, including third-party rights. The remote original and any individual third-party permissions were not independently verified.",
+      "evidencia_anterior_a_confirmacion_final": {
+        "status": "unknown",
+        "es": "Según la documentación del módulo, textura ilustrativa generada para la escena. El autor, herramienta y procedimiento originales no están identificados.",
+        "en": "According to the module documentation, illustrative texture generated for the scene. Original author, tool and procedure are not identified.",
+        "credit": "Documentación del proyecto / Project documentation",
+        "permiso_es": "Referencia contextual; no acredita autorización del archivo local. Se debe identificar el original o sustituirlo por uno autorizado.",
+        "permiso_en": "Contextual reference; does not establish authorization for the local file. Identify the original or replace it with an authorized asset."
+      },
+      "declaracion_equipo": "Confirmación del responsable del proyecto, 15/11/2026."
+    },
+    {
+      "group": "panorama",
+      "file": "legacy-assets/PIA22909-4096.webp",
+      "title": "PIA22909-4096",
+      "url": "https://science.nasa.gov/photojournal/opportunity-legacy-pan-true-color/",
+      "credit": "NASA/JPL-Caltech/Cornell/ASU",
+      "policy": "https://www.jpl.nasa.gov/jpl-image-use-policy/",
+      "status": "documented",
+      "es": "Coincide con SHA-256 de la procedencia incluida; archivo original remoto no recomparado. Versión redimensionada sin relleno.",
+      "en": "Matches bundled provenance SHA-256; remote original not re-compared. Resized without fill.",
+      "bytes": 567350,
+      "sha256": "83056e41cf7747c89e334632ba53e2a0ae7504994d37298952bf665ea7907bc9",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "dimensiones_px": [
+        4096,
+        915
+      ],
+      "registro_procedencia": "legacy-assets/provenance.json",
+      "fuente_archivo_registrada": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia22/pia22909/tiff/PIA22909_full.tif",
+      "procesamiento_registrado": "Resized from original 23123x5163 TIFF; aspect ratio maintained; WebP quality 84. No fill, retouching, generative extension or color change.",
+      "permiso_es": "Uso educativo conforme a la política JPL para el material identificado, sujeto a excepciones y crédito. La copia local consta en el registro; no se cotejó el original remoto.",
+      "permiso_en": "Educational use under JPL policy for the identified material, subject to exceptions and credit. Local copy is recorded; remote original not compared."
+    },
+    {
+      "group": "panorama",
+      "file": "legacy-assets/PIA22909-8192.webp",
+      "title": "PIA22909-8192",
+      "url": "https://science.nasa.gov/photojournal/opportunity-legacy-pan-true-color/",
+      "credit": "NASA/JPL-Caltech/Cornell/ASU",
+      "policy": "https://www.jpl.nasa.gov/jpl-image-use-policy/",
+      "status": "documented",
+      "es": "Coincide con SHA-256 de la procedencia incluida; archivo original remoto no recomparado. Versión redimensionada sin relleno.",
+      "en": "Matches bundled provenance SHA-256; remote original not re-compared. Resized without fill.",
+      "bytes": 2498854,
+      "sha256": "64bf97ff18d091d0c2603ca5a930bf78f8ffabb3da1a1b513966f7cf875e21a3",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "dimensiones_px": [
+        8192,
+        1829
+      ],
+      "registro_procedencia": "legacy-assets/provenance.json",
+      "fuente_archivo_registrada": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia22/pia22909/tiff/PIA22909_full.tif",
+      "procesamiento_registrado": "Resized from original 23123x5163 TIFF; aspect ratio maintained; WebP quality 86. No fill, retouching, generative extension or color change.",
+      "permiso_es": "Uso educativo conforme a la política JPL para el material identificado, sujeto a excepciones y crédito. La copia local consta en el registro; no se cotejó el original remoto.",
+      "permiso_en": "Educational use under JPL policy for the identified material, subject to exceptions and credit. Local copy is recorded; remote original not compared."
+    },
+    {
+      "group": "panorama",
+      "file": "legacy-assets/PIA22929.jpg",
+      "title": "PIA22929",
+      "url": "https://science.nasa.gov/photojournal/opportunitys-last-message/",
+      "credit": "NASA/JPL-Caltech/Cornell/ASU",
+      "policy": "https://www.jpl.nasa.gov/jpl-image-use-policy/",
+      "status": "documented",
+      "es": "Coincide con SHA-256 de la procedencia incluida; archivo original remoto no recomparado. JPEG registrado.",
+      "en": "Matches bundled provenance SHA-256; remote original not re-compared. Registered JPEG.",
+      "bytes": 314160,
+      "sha256": "db99314d10489da0937c3fb3ef67a89e087aca11deedafde39a67e27a79f794f",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "dimensiones_px": [
+        1024,
+        1024
+      ],
+      "registro_procedencia": "legacy-assets/provenance.json",
+      "fuente_archivo_registrada": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia22/pia22929/PIA22929.jpg",
+      "procesamiento_registrado": "Published JPEG copied unchanged.",
+      "permiso_es": "Uso educativo conforme a la política JPL para el material identificado, sujeto a excepciones y crédito. La copia local consta en el registro; no se cotejó el original remoto.",
+      "permiso_en": "Educational use under JPL policy for the identified material, subject to exceptions and credit. Local copy is recorded; remote original not compared."
+    },
+    {
+      "group": "panorama",
+      "file": "legacy-assets/PIA22930.jpg",
+      "title": "PIA22930",
+      "url": "https://science.nasa.gov/photojournal/last-images-opportunity-took/",
+      "credit": "NASA/JPL-Caltech/Cornell/ASU",
+      "policy": "https://www.jpl.nasa.gov/jpl-image-use-policy/",
+      "status": "documented",
+      "es": "Coincide con SHA-256 de la procedencia incluida; archivo original remoto no recomparado. JPEG registrado.",
+      "en": "Matches bundled provenance SHA-256; remote original not re-compared. Registered JPEG.",
+      "bytes": 1527,
+      "sha256": "94222d58d6ec992e5a2667eee9145085eb89814adf9fa0ec5204c57de66f653a",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "dimensiones_px": [
+        224,
+        96
+      ],
+      "registro_procedencia": "legacy-assets/provenance.json",
+      "fuente_archivo_registrada": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia22/pia22930/PIA22930.jpg",
+      "procesamiento_registrado": "Published JPEG copied unchanged.",
+      "permiso_es": "Uso educativo conforme a la política JPL para el material identificado, sujeto a excepciones y crédito. La copia local consta en el registro; no se cotejó el original remoto.",
+      "permiso_en": "Educational use under JPL policy for the identified material, subject to exceptions and credit. Local copy is recorded; remote original not compared."
+    },
+    {
+      "group": "panorama",
+      "file": "legacy-assets/PIA22909-reconstruccion-v2.webp",
+      "title": "PIA22909 · original mosaic",
+      "url": "https://science.nasa.gov/photojournal/opportunity-legacy-pan-true-color/",
+      "credit": "ChatGPT (OpenAI) + Cosmic Legacy · Base: NASA/JPL-Caltech/Cornell/ASU",
+      "policy": "https://www.jpl.nasa.gov/jpl-image-use-policy/",
+      "status": "ai",
+      "es": "Reconstrucción artística creada con ChatGPT sobre el archivo científico PIA22909; no constituye una observación científica.",
+      "en": "Artistic reconstruction created with ChatGPT using the PIA22909 science archive; not a scientific observation.",
+      "bytes": 1894796,
+      "sha256": "31b80b5b660a291bfbfad675f5afaa420bd67cae58b16dc15d0c512e62b848f1",
+      "integridad_local": "SHA-256 y tamaño recalculados; coinciden con inventario.",
+      "dimensiones_px": [
+        4096,
+        915
+      ],
+      "registro_procedencia": "legacy-assets/provenance.json",
+      "fuente_archivo_registrada": "PIA22909-4096.webp (included above); procedural sky and quilted soil textures from observed fragments.",
+      "procesamiento_registrado": "Transparent lossless WebP; mask of large dark gaps plus a narrow feathered seam margin. Original photo files are unchanged. Artistic fill is not a scientific reconstruction or new NASA data.",
+      "permiso_es": "Los términos de OpenAI atribuyen al usuario los derechos que OpenAI tenga sobre sus resultados, en la medida permitida por ley; se mantienen las obligaciones relativas a materiales de terceros y la política de la fuente original.",
+      "permiso_en": "OpenAI terms assign to the user any rights OpenAI has in its output, to the extent permitted by law; third-party rights and the original source policy still apply.",
+      "evidencia_previa": {
+        "es": "Capa artística asistida por IA; coincide con SHA-256 del registro. No constituye observación científica.",
+        "en": "AI-assisted artistic overlay; matches recorded SHA-256. Not a scientific observation."
+      },
+      "herramienta_ia": "ChatGPT (OpenAI)",
+      "declaracion_equipo": "El responsable del proyecto confirma que ChatGPT creó los recursos identificados como IA.",
+      "policy_ai": "https://openai.com/policies/terms-of-use/"
+    },
+    {
+      "group": "images",
+      "file": "legacy-assets/PIA23720.png",
+      "title": "PIA23720",
+      "url": "https://www.nasa.gov/image-detail/amf-pia23720/",
+      "credit": "NASA/JPL-Caltech",
+      "policy": "https://www.jpl.nasa.gov/jpl-image-use-policy/",
+      "status": "documented",
+      "es": "Ilustración artística oficial de Ingenuity y Perseverance, 2020; no fotografía real. PNG aportado por el equipo.",
+      "en": "Official 2020 artist’s concept of Ingenuity and Perseverance; not a real photograph. PNG supplied by the team.",
+      "bytes": 837801,
+      "sha256": "7a65cd34a669944bcec314702489a841733cd645210ac4f889e01d6abf2db0cb",
+      "integridad_local": "SHA-256, tamaño y dimensiones de la copia local comprobados.",
+      "dimensiones_px": [
+        1062,
+        590
+      ],
+      "registro_procedencia": "Archivo proporcionado por el equipo; identificación contrastada con NASA Photojournal PIA23720.",
+      "fuente_archivo_registrada": "https://www.nasa.gov/image-detail/amf-pia23720/",
+      "procesamiento_registrado": "PNG aportado por el equipo, conservado sin cambios; no cotejado byte por byte con el original NASA.",
+      "permiso_es": "Uso educativo con crédito, sujeto a la política de uso de imágenes de JPL/NASA.",
+      "permiso_en": "Educational use with credit, subject to the JPL/NASA image use policy."
+    }
+  ],
+  "fuentes_codigo": {
+    "https://science.nasa.gov/mission/cassini/spacecraft/cassini-orbiter/": [
+      "anatomia-espacial.js"
+    ],
+    "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/": [
+      "anatomia-espacial.js"
+    ],
+    "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/science-instruments/": [
+      "anatomia-espacial.js"
+    ],
+    "https://science.nasa.gov/mission/near-shoemaker/": [
+      "anatomia-espacial.js",
+      "echo-data.js"
+    ],
+    "https://science.nasa.gov/mission/pioneer-10/": [
+      "anatomia-espacial.js",
+      "echo-data.js"
+    ],
+    "https://science.nasa.gov/mission/surveyor-3/": [
+      "anatomia-espacial.js",
+      "echo-data.js"
+    ],
+    "https://www.nasa.gov/missions/apollo/apollo-11/apollo-11-mission-overview/": [
+      "anatomia-espacial.js",
+      "echo-data.js"
+    ],
+    "https://science.nasa.gov/mission/apollo-11/": [
+      "echo-data.js"
+    ],
+    "https://science.nasa.gov/mission/cassini/about-the-mission/": [
+      "echo-data.js"
+    ],
+    "https://science.nasa.gov/mission/cassini/grand-finale/overview/": [
+      "echo-data.js"
+    ],
+    "https://science.nasa.gov/mission/mer-opportunity/": [
+      "echo-data.js",
+      "legacy-assets/content-panorama-v2.mjs"
+    ],
+    "https://science.nasa.gov/photojournal/opportunitys-last-message/": [
+      "echo-data.js",
+      "legacy-assets/content-panorama-v2.mjs"
+    ],
+    "https://www.nasa.gov/news-release/after-three-years-on-mars-nasas-ingenuity-helicopter-mission-ends/": [
+      "echo-data.js"
+    ],
+    "https://science.nasa.gov/mission/magellan/": [
+      "echo.js",
+      "explorador-planetas.js"
+    ],
+    "https://science.nasa.gov/mission/messenger/": [
+      "echo.js",
+      "explorador-planetas.js"
+    ],
+    "https://science.nasa.gov/mission/voyager/voyager-2/": [
+      "echo.js",
+      "explorador-planetas.js"
+    ],
+    "https://science.nasa.gov/solar-system/planets/": [
+      "echo.js"
+    ],
+    "https://www.jpl.nasa.gov/missions/explorer-1/": [
+      "echo.js",
+      "explorador-planetas.js"
+    ],
+    "https://science.nasa.gov/mission/dawn/toolkit/end-of-mission/": [
+      "explorador-planetas.js"
+    ],
+    "https://science.nasa.gov/mission/kepler/": [
+      "explorador-planetas.js"
+    ],
+    "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/science-highlights/": [
+      "legacy-assets/content-panorama-v2.mjs"
+    ],
+    "https://science.nasa.gov/missions/mer/six-things-to-know-about-nasas-opportunity-rover/": [
+      "legacy-assets/content-panorama-v2.mjs"
+    ],
+    "https://science.nasa.gov/photojournal/last-images-opportunity-took/": [
+      "legacy-assets/content-panorama-v2.mjs"
+    ],
+    "https://science.nasa.gov/photojournal/opportunity-legacy-pan-true-color/": [
+      "legacy-assets/content-panorama-v2.mjs"
+    ],
+    "https://www.jpl.nasa.gov/jpl-image-use-policy/": [
+      "legacy-assets/content-panorama-v2.mjs"
+    ],
+    "https://www.jpl.nasa.gov/news/nasas-opportunity-rover-mission-on-mars-comes-to-end/": [
+      "legacy-assets/content-panorama-v2.mjs"
+    ],
+    "https://www.jpl.nasa.gov/news/opportunity-hunkers-down-during-dust-storm/": [
+      "legacy-assets/content-panorama-v2.mjs"
+    ],
+    "https://science.nasa.gov/resource/venus-surface-3d-model/": [
+      "sistema-solar.js"
+    ],
+    "https://science.nasa.gov/resource/earth-with-clouds-3d-model/": [
+      "sistema-solar.js"
+    ],
+    "https://science.nasa.gov/resource/planet-mars-3d-model/": [
+      "sistema-solar.js"
+    ],
+    "https://science.nasa.gov/resource/jupiter-3d-model/": [
+      "sistema-solar.js"
+    ],
+    "https://science.nasa.gov/resource/saturn-3d-model/": [
+      "sistema-solar.js"
+    ],
+    "https://science.nasa.gov/resource/uranus-3d-model/": [
+      "sistema-solar.js"
+    ],
+    "https://science.nasa.gov/resource/neptune-3d-model/": [
+      "sistema-solar.js"
+    ],
+    "https://www.nasa.gov/image-detail/amf-pia23720/": [
+      "index.html",
+      "index(1).html",
+      "cosmic-education-data.js",
+      "biblioteca-recursos.html"
+    ]
+  },
+  "tecnologia": [
+    {
+      "nombre": "model-viewer 4.1.0",
+      "autor": "Google / model-viewer contributors",
+      "licencia": "Apache-2.0",
+      "fuente": "https://github.com/google/model-viewer/blob/master/LICENSE",
+      "recurso": "https://ajax.googleapis.com/ajax/libs/model-viewer/4.1.0/model-viewer.min.js"
+    },
+    {
+      "nombre": "Manrope",
+      "autor": "The Manrope Project Authors",
+      "licencia": "SIL OFL 1.1",
+      "fuente": "https://github.com/google/fonts/blob/main/ofl/manrope/OFL.txt",
+      "recurso": "https://fonts.google.com/specimen/Manrope"
+    },
+    {
+      "nombre": "Cormorant Garamond",
+      "autor": "The Cormorant Project Authors / Christian Thalmann",
+      "licencia": "SIL OFL 1.1",
+      "fuente": "https://github.com/CatharsisFonts/Cormorant",
+      "recurso": "https://fonts.google.com/specimen/Cormorant+Garamond"
+    }
+  ],
+  "respaldo_no_distribuido": {
+    "archivo": "respaldo-modelos/tierra-anterior.glb",
+    "sha256": "d5ae90886917813644becc7a61696a55ea1b143a71d91796c87308fed3ba6c85",
+    "motivo": "Retirado del ZIP final: no usado en la aplicación y origen no acreditado."
+  },
+  "comprobacion_enlaces": {
+    "fecha": "2026-11-15",
+    "consultados_con_exito": [
+      "https://science.nasa.gov/resource/spirit-and-opportunity-rover-3d-model/",
+      "https://science.nasa.gov/resource/mars-ingenuity-helicopter-3d-model/",
+      "https://science.nasa.gov/3d-resources/near-shoemaker/",
+      "https://science.nasa.gov/3d-resources/pioneer/",
+      "https://science.nasa.gov/resource/cassini-3d-model/",
+      "https://science.nasa.gov/resource/venus-surface-3d-model/",
+      "https://science.nasa.gov/resource/jupiter-3d-model/",
+      "https://science.nasa.gov/resource/saturn-3d-model/",
+      "https://science.nasa.gov/resource/uranus-3d-model/",
+      "https://science.nasa.gov/resource/neptune-3d-model/",
+      "https://science.nasa.gov/resource/earth-with-clouds-3d-model/",
+      "https://science.nasa.gov/resource/planet-mars-3d-model/",
+      "https://svs.gsfc.nasa.gov/14959/",
+      "https://science.nasa.gov/photojournal/opportunity-legacy-pan-true-color/",
+      "https://science.nasa.gov/photojournal/opportunitys-last-message/",
+      "https://science.nasa.gov/photojournal/last-images-opportunity-took/",
+      "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "https://www.jpl.nasa.gov/images/pia26236-perseverance-spots-ingenuity-at-its-final-airfield/",
+      "https://science.nasa.gov/resource/pioneer-10-at-jupiter-artists-concept/",
+      "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo11.html",
+      "https://github.com/nasa/spaceapps/discussions/1947",
+      "https://github.com/nasa/spaceapps/discussions/1849",
+      "https://github.com/nasa/spaceapps/discussions/1858"
+    ],
+    "sin_acceso_desde_entorno": [
+      "https://legado-cosmico.lopezrosalezpiero.workers.dev/",
+      "https://www.spaceappschallenge.org/resources/project-submission-guide/en",
+      "https://www.spaceappschallenge.org/2026/challenges/nasas-discarded-equipment-storytelling/?tab=resources"
+    ],
+    "nota": "La consulta de una ficha no implica verificación de su binario, licencia individual ni del resto de enlaces. La descarga externa se bloqueó."
+  },
+  "revision_ampliada": {
+    "fecha": "2026-11-15",
+    "listado_alternativo": "https://hackathlone.com/challenges/nasas-discarded-equipment-storytelling",
+    "listado_central": "https://www.spaceappschallenge.org/2026/challenges/nasas-discarded-equipment-storytelling/?tab=resources",
+    "resultado_central": "502 en consulta web; la sede organizadora de Athlone reproduce 14 recursos; no equivale a una confirmación directa de la lista central.",
+    "recursos_coincidentes": [
+      {
+        "nombre": "Spirit & Opportunity",
+        "url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/",
+        "archivos": [
+          "anatomia-espacial.js",
+          "legacy-assets/content-panorama-v2.mjs"
+        ],
+        "uso_es": "Cámara Pancam, instrumentos, exploración de Marte y archivo final PIA22909.",
+        "uso_en": "Pancam, instruments, Mars exploration and the final PIA22909 archive.",
+        "origen_lista": "https://hackathlone.com/challenges/nasas-discarded-equipment-storytelling",
+        "fuente_nasa_consultada": true
+      },
+      {
+        "nombre": "Surveyor 3",
+        "url": "https://science.nasa.gov/mission/surveyor-3/",
+        "archivos": [
+          "echo-data.js",
+          "anatomia-espacial.js"
+        ],
+        "uso_es": "Historia del aterrizaje lunar, excavación del regolito y preparación del programa Apollo.",
+        "uso_en": "Lunar landing, regolith excavation and preparation for Apollo.",
+        "origen_lista": "https://hackathlone.com/challenges/nasas-discarded-equipment-storytelling",
+        "fuente_nasa_consultada": true
+      },
+      {
+        "nombre": "NEAR Shoemaker",
+        "url": "https://science.nasa.gov/mission/near-shoemaker/",
+        "archivos": [
+          "echo-data.js",
+          "anatomia-espacial.js"
+        ],
+        "uso_es": "Relato de la misión a Eros y su aterrizaje; anatomía de la sonda.",
+        "uso_en": "Story of the Eros mission and landing; spacecraft anatomy.",
+        "origen_lista": "https://hackathlone.com/challenges/nasas-discarded-equipment-storytelling",
+        "fuente_nasa_consultada": true
+      },
+      {
+        "nombre": "Pioneer 10",
+        "url": "https://science.nasa.gov/mission/pioneer-10/",
+        "archivos": [
+          "echo-data.js",
+          "anatomia-espacial.js"
+        ],
+        "uso_es": "Exploración de Júpiter, instrumentos y última señal.",
+        "uso_en": "Jupiter exploration, instruments and final signal.",
+        "origen_lista": "https://hackathlone.com/challenges/nasas-discarded-equipment-storytelling",
+        "fuente_nasa_consultada": true
+      },
+      {
+        "nombre": "Ingenuity",
+        "url": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/",
+        "archivos": [
+          "anatomia-espacial.js"
+        ],
+        "uso_es": "Explicación de los componentes de vuelo del helicóptero marciano.",
+        "uso_en": "Explanation of the Mars helicopter flight components.",
+        "origen_lista": "https://hackathlone.com/challenges/nasas-discarded-equipment-storytelling",
+        "fuente_nasa_consultada": true
+      }
+    ],
+    "elegibilidad": {
+      "reglas": [
+        "https://github.com/nasa/spaceapps/discussions/1947",
+        "https://github.com/nasa/spaceapps/discussions/1813",
+        "https://github.com/nasa/spaceapps/discussions/1858",
+        "https://www.spaceappschallenge.org/2026/"
+      ],
+      "estado_equipo": "No verificable desde el ZIP; registro, sede, integrantes, cronología y envío requieren evidencia del equipo u organizador.",
+      "permisos": "La política de NASA/JPL no acredita por sí sola el origen de un archivo local. No se autoriza material de terceros por inferencia."
+    }
+  },
+  "confirmacion_equipo": {
+    "fecha": "2026-11-15",
+    "alcance": "El equipo confirma los 16 modelos, las descargas NASA de los modelos planetarios, el origen NASA del modelo lunar, de las texturas del sistema solar y de la imagen de Ingenuity. Tres recreaciones visuales se atribuyen a ChatGPT. Herramientas de IA declaradas: ChatGPT y Gemini. Elegibilidad declarada por el equipo; no certificada por el organizador.",
+    "politica_openai": "https://openai.com/policies/terms-of-use/",
+    "verificacion_local": "36/36 SHA-256 y tamaños coincidentes.",
+    "herramientas_ia": [
+      "ChatGPT (OpenAI)",
+      "Gemini (Google)"
+    ],
+    "detalle_ia": "ChatGPT: asistencia de código/documentación y recreaciones identificadas de Apollo 11, Surveyor 3 y Opportunity. Gemini: herramienta adicional confirmada; tareas específicas no detalladas. No se atribuye la totalidad del proyecto a IA.",
+    "elegibilidad": {
+      "tipo": "autodeclaracion del equipo, no validacion oficial",
+      "condiciones": [
+        "Todos los integrantes registrados oficialmente",
+        "Máximo seis integrantes",
+        "Desafío Abandoned but Not Forgotten seleccionado",
+        "Inscripción en sede local de Perú",
+        "Desarrollo iniciado dentro del horario autorizado",
+        "Respeto de bases y condiciones declarado",
+        "Compromiso de declarar todas las herramientas IA"
+      ]
+    }
+  },
+  "revision_documental_final": {
+    "fecha": "2026-11-15",
+    "archivos_visuales_verificados_integridad": 36,
+    "imagenes_coincidentes_visualmente": [
+      "img/astronauta-eagle.jpg",
+      "img/eagle.jpg",
+      "img/near.jpg",
+      "img/pioneer.jpg"
+    ],
+    "textura_mercurio": "Igualdad RGB con un mapa embebido del GLB local.",
+    "limites": "La procedencia restante fue declarada por el equipo. No se acreditaron independientemente el montaje de Ingenuity y las descargas o conversiones exactas de las texturas; la descripción previa de algunas texturas como generadas se conserva como evidencia histórica. No se verificaron registros privados, WebGL ni publicación. HTML/CSS/JS/MJS y recursos visuales intactos; la biblioteca estática conserva datos de la versión anterior. Se actualizaron los README, el informe y este JSON."
+  }
+}

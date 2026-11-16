@@ -1,0 +1,57 @@
+/* Credits archive: isolated styles, compatible with the existing ES/EN control. */
+.lc-credits{width:min(100% - 48px,1350px);margin:80px auto 100px;scroll-margin-top:100px;position:relative;z-index:1;color:#e9e2d8;font:400 14px/1.65 Manrope,sans-serif}.lc-credits h2{font:500 clamp(36px,5vw,64px)/1.1 'Cormorant Garamond',Georgia,serif;margin:12px 0 22px}.lc-credits p{margin:8px 0;overflow-wrap:anywhere}.lc-credits a,.lc-credits-link{color:#e8c998;text-decoration:underline;text-underline-offset:4px}.lc-credits a:focus-visible,.lc-credits summary:focus-visible,.lc-credits-link:focus-visible{outline:2px solid #f6d9aa;outline-offset:4px}.lc-credit-note{border-left:2px solid #d7b98b;padding:8px 16px;color:#c7bcae}.lc-credit-summary{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0}.lc-credit-summary strong{padding:8px 14px;border:1px solid #d7b98b44;border-radius:6px}.lc-credits details{border:1px solid #d7b98b30;border-radius:10px;background:#101724dd;margin:12px 0;padding:16px 20px}.lc-credits summary{cursor:pointer;font-weight:600;color:#f2d6aa;font-size:16px}.lc-credit-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr));gap:12px;margin-top:16px}.lc-credit-grid article{border:1px solid #ffffff16;background:#080e19;padding:14px;border-radius:6px;min-width:0}.lc-credit-grid code{font:12px/1.5 monospace;overflow-wrap:anywhere;color:#f4e7d3}.lc-credit-status{font-size:12px;font-weight:700;color:#e4b976}.lc-credit-status.documented{color:#9ed6bf}.lc-credit-status.ai{color:#c1c8ff}.lc-credit-links{padding-left:18px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(230px,100%),1fr));gap:8px 25px}.lc-credit-links li{overflow-wrap:anywhere}.lc-credit-links small{display:block;color:#b7b4b4}.lc-credits [lang=en],.lc-credits-link [lang=en]{display:none}html[lang=en] .lc-credits [lang=es],html[lang=en] .lc-credits-link [lang=es]{display:none}html[lang=en] .lc-credits [lang=en],html[lang=en] .lc-credits-link [lang=en]{display:inline} @media(max-width:600px){.lc-credits{width:calc(100% - 28px);margin:55px auto}.lc-credits details{padding:12px}.lc-credit-summary{gap:6px}.lc-credit-summary strong{font-size:12px;padding:6px 8px}}
+
+/* Editorial polish: isolate translated text from the decorative .eyebrow span rule. */
+.lc-credits,.lc-learning-route,.lc-science-gallery{box-sizing:border-box}
+.lc-credit-kicker,.lc-editorial-kicker{display:flex;align-items:center;gap:12px;flex-wrap:nowrap;color:#d7b98b;font:600 10px/1.6 Manrope,sans-serif;letter-spacing:.16em;text-transform:uppercase;margin:0 0 14px!important;overflow-wrap:normal!important}
+.lc-credit-kicker::before,.lc-editorial-kicker::before{content:'';width:26px;height:1px;background:#d7b98b;flex:0 0 26px}
+.lc-credit-kicker span,.lc-editorial-kicker span{width:auto;height:auto;background:none;vertical-align:baseline;white-space:normal;letter-spacing:inherit;min-width:0;margin:0}
+.lc-credits h2{max-width:100%;overflow-wrap:normal;text-wrap:balance;line-height:1.06}
+.lc-credits>p:not(.lc-credit-kicker){max-width:950px}
+.lc-credits .lc-credit-note{margin-top:16px}
+.lc-credit-context{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:18px;margin:28px 0;align-items:stretch}
+.lc-credit-legend,.lc-credit-evidence{border:1px solid #d7b98b35;border-radius:14px;background:#101724dd;min-width:0;margin:0;overflow:hidden}
+.lc-credit-legend{padding:clamp(16px,2.2vw,28px)}
+.lc-credit-legend h3,.lc-credit-evidence figcaption>strong{font:500 28px/1.12 'Cormorant Garamond',Georgia,serif;color:#f1e5d6;margin:0 0 12px;display:block}
+.lc-credit-legend-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:14px}
+.lc-credit-legend-grid article{padding:12px;background:#080e19;border:1px solid #ffffff17;border-radius:8px;min-width:0}
+.lc-credit-legend-grid p{font-size:12px;color:#c0c9d5;line-height:1.55;margin:5px 0 0}
+.lc-credit-evidence{display:flex;flex-direction:column}
+.lc-credit-evidence img{display:block;width:100%;height:auto;aspect-ratio:4096/915;object-fit:contain;background:#030508;border-bottom:1px solid #d7b98b35}
+.lc-credit-evidence figcaption{padding:clamp(16px,2.2vw,26px);flex:1}
+.lc-credit-evidence small,.lc-credit-evidence a{display:block;font-size:11px;margin-top:10px}
+.lc-credit-evidence small{color:#c1bdba}
+/* Bilingual text in new content stays outside the legacy translation walker. */
+.lc-bilingual [lang=en],.lc-card-brief [lang=en]{display:none}
+html[lang=en] .lc-bilingual [lang=es],html[lang=en] .lc-card-brief [lang=es]{display:none}
+html[lang=en] .lc-bilingual [lang=en],html[lang=en] .lc-card-brief [lang=en]{display:inline}
+#vehiculos .vehicle-card .lc-card-brief,#explorar .planet-card .lc-card-brief{color:#c1c9d5;font:400 12px/1.65 Manrope,sans-serif;margin:8px 0 0;min-width:0;overflow-wrap:normal;letter-spacing:0;text-transform:none}
+#vehiculos .fusion-ship .vehicle-card,#explorar .planet-card{display:flex;flex-direction:column}
+#vehiculos .fusion-ship .vehicle-card .explore-link,#explorar .planet-card .explore-link{margin-top:auto;padding-top:15px}
+#vehiculos .vehicle-card .planet-art,#explorar .planet-card .planet-art{flex-shrink:0}
+#explorar .planet-card{min-width:0}
+.lc-learning-route,.lc-science-gallery{width:min(100% - 48px,1350px);margin:48px auto 70px;color:#e9e2d8;position:relative;z-index:1;font:400 14px/1.65 Manrope,sans-serif;scroll-margin-top:96px}
+.lc-learning-route{padding:clamp(18px,3.5vw,40px);border:1px solid #d7b98b38;border-radius:18px;background:radial-gradient(ellipse at top right,#1e293b88,transparent 60%),#101724c9}
+.lc-learning-route header,.lc-science-gallery header{margin-bottom:22px;max-width:860px}
+.lc-learning-route h2,.lc-science-gallery h2{font:500 clamp(34px,4.2vw,54px)/1.06 'Cormorant Garamond',Georgia,serif;color:#f1e5d6;margin:0 0 12px;text-wrap:balance}
+.lc-learning-route header>p:last-child,.lc-science-gallery header>p:last-child{color:#c0c9d5;max-width:760px;margin:0}
+.lc-route-grid,.lc-gallery-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.lc-route-grid article,.lc-gallery-grid figure{background:#090f1acc;border:1px solid #d7b98b30;border-radius:12px;min-width:0;display:flex;flex-direction:column;margin:0}
+.lc-route-grid article{padding:20px 18px}
+.lc-route-number{font:500 42px/1 'Cormorant Garamond',Georgia,serif;color:#d7b98b;display:block;margin-bottom:12px}
+.lc-route-grid h3,.lc-gallery-grid h3{font:500 27px/1.12 'Cormorant Garamond',Georgia,serif;color:#f1e5d6;margin:0 0 9px}
+.lc-route-grid p,.lc-gallery-grid p{color:#c1cad6;font-size:13px;line-height:1.65;margin:0 0 16px}
+.lc-route-grid a,.lc-gallery-grid a{color:#e9c998;text-decoration:underline;text-underline-offset:4px;font-size:12px;line-height:1.5;align-self:flex-start;margin-top:auto;padding-block:6px}
+.lc-route-grid a:focus-visible,.lc-gallery-grid a:focus-visible{outline:2px solid #f6d9aa;outline-offset:4px}
+.lc-route-question{border-left:2px solid #d7b98b;padding:10px 14px;margin:20px 0 0;color:#d6c6b2;background:#d7b98b08;font-size:13px}
+.lc-gallery-grid figure{overflow:hidden}
+.lc-gallery-media{height:clamp(135px,17vw,220px);display:flex;align-items:center;justify-content:center;background:#05070c;padding:8px;border-bottom:1px solid #d7b98b26}
+.lc-gallery-media img{display:block;max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain}
+.lc-gallery-grid figcaption{padding:18px;display:flex;flex-direction:column;flex:1}
+.lc-gallery-id{color:#d7b98b;font-size:10px;letter-spacing:.12em;font-weight:700;margin-bottom:8px}
+.lc-gallery-grid small{display:block;font-size:10px;color:#b3b7c0;margin-top:5px}
+@media(max-width:850px){.lc-credit-context{grid-template-columns:1fr}.lc-gallery-grid,.lc-route-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.lc-gallery-media{height:180px}}
+@media(max-width:560px){.lc-learning-route,.lc-science-gallery{width:calc(100% - 28px);margin:32px auto 45px}.lc-route-grid,.lc-gallery-grid{grid-template-columns:1fr}.lc-credit-legend-grid{grid-template-columns:1fr}.lc-credit-kicker,.lc-editorial-kicker{letter-spacing:.10em;font-size:9px}.lc-credits h2{font-size:clamp(32px,10vw,50px)}.lc-gallery-media{height:170px}#vehiculos .vehicle-card .lc-card-brief,#explorar .planet-card .lc-card-brief{font-size:11px;line-height:1.5}}
+
+/* Final bibliography layout */
+.lc-credit-status.reference{color:#c3ccd8}.lc-inventory-link{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:baseline;padding:14px 0 20px}.lc-credit-muted{color:#aeb9c9;font-size:12px}.lc-credit-legend-grid strong{color:#e7cfad;font-weight:600}.lc-inventory-link a{font-weight:600;text-underline-offset:4px}

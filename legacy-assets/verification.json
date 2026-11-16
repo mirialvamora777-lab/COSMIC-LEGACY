@@ -1,0 +1,101 @@
+{
+  "checked_at_utc": "2026-11-15T03:09:14.726Z",
+  "source_archive": "nasa(2).zip",
+  "scope": "Static analysis, binary preservation, pure-model and DOM tests; no real-browser graphical validation.",
+  "original_files": 35,
+  "unchanged_original_files": 34,
+  "modified_original_files": [
+    "index(1).html"
+  ],
+  "deleted_original_files": [],
+  "added_files": [
+    "README_LEGACY.md",
+    "legacy-assets/PIA22909-4096.webp",
+    "legacy-assets/PIA22909-8192.webp",
+    "legacy-assets/PIA22929.jpg",
+    "legacy-assets/PIA22930.jpg",
+    "legacy-assets/content.mjs",
+    "legacy-assets/index-original.html.txt",
+    "legacy-assets/original-sha256.json",
+    "legacy-assets/provenance.json",
+    "legacy-assets/simulation.mjs",
+    "legacy-assets/verification.json",
+    "legacy-protocol.css",
+    "legacy-protocol.js"
+  ],
+  "syntax_and_paths": {
+    "js": [
+      "anatomia-espacial.js",
+      "explorador-planetas.js",
+      "legacy-protocol.js",
+      "legado-experiencia.js",
+      "script.js",
+      "sistema-solar.js"
+    ],
+    "css": [
+      "anatomia-espacial.css",
+      "explorador-planetas.css",
+      "legacy-protocol.css",
+      "legado-experiencia.css",
+      "sistema-solar.css",
+      "styles.css"
+    ],
+    "html": [
+      {
+        "file": "index(1).html",
+        "ids": 20
+      },
+      {
+        "file": "index.html",
+        "ids": 0
+      }
+    ],
+    "missingActive": [],
+    "missingExistingFallbacks": [
+      "models/opportunity-demo.glb",
+      "models/cassini-demo.glb"
+    ]
+  },
+  "simulation": {
+    "status": "PASS",
+    "leaves": 652,
+    "transitions": 971,
+    "reserveEnergy": 63,
+    "radioEnergy": 0,
+    "radioPackets": 3
+  },
+  "dom": {
+    "status": "PASS",
+    "kind": "DOM-only test doubles",
+    "errors": [],
+    "warnings": []
+  },
+  "translations_and_points": {
+    "status": "PASS",
+    "translationKeys": 172,
+    "points": 5
+  },
+  "asset_hashes": "PASS: all four distributed NASA image assets match provenance.json",
+  "original_html_backup": "PASS: byte-identical",
+  "not_executed": [
+    "Real-browser visual and console acceptance",
+    "Rendered GLB model and red marker interactions",
+    "WebGL solar controls and mission mode in browser",
+    "Direct archive navigation in browser",
+    "Desktop, tablet and mobile visual layout",
+    "Real touch gestures, audible output and screen-reader audit",
+    "Performance and memory profiling",
+    "Deployment to GitHub Pages or Netlify"
+  ],
+  "browser_attempts": {
+    "connected_browser": "Local HTTP connection refused",
+    "cloud_browser": "Local HTTP connection refused",
+    "local_chromium": "Unable to start: socket operation not permitted",
+    "alternate_browser_download": "No installable browser executable obtained"
+  },
+  "known_preexisting_conditions": [
+    "Missing fallback models/opportunity-demo.glb",
+    "Missing fallback models/cassini-demo.glb",
+    "Archive mission markers still require the original zoom condition"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "verified_date": "2026-11-14",
+  "credit": "NASA/JPL-Caltech/Cornell/ASU",
+  "image_policy": "https://www.jpl.nasa.gov/jpl-image-use-policy/",
+  "assets": [
+    {
+      "file": "PIA22909-4096.webp",
+      "source": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia22/pia22909/tiff/PIA22909_full.tif",
+      "dimensions": [
+        4096,
+        915
+      ],
+      "bytes": 567350,
+      "sha256": "83056e41cf7747c89e334632ba53e2a0ae7504994d37298952bf665ea7907bc9",
+      "processing": "Resized from original 23123x5163 TIFF; aspect ratio maintained; WebP quality 84. No fill, retouching, generative extension or color change."
+    },
+    {
+      "file": "PIA22909-8192.webp",
+      "source": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia22/pia22909/tiff/PIA22909_full.tif",
+      "dimensions": [
+        8192,
+        1829
+      ],
+      "bytes": 2498854,
+      "sha256": "64bf97ff18d091d0c2603ca5a930bf78f8ffabb3da1a1b513966f7cf875e21a3",
+      "processing": "Resized from original 23123x5163 TIFF; aspect ratio maintained; WebP quality 86. No fill, retouching, generative extension or color change."
+    },
+    {
+      "file": "PIA22929.jpg",
+      "source": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia22/pia22929/PIA22929.jpg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "bytes": 314160,
+      "sha256": "db99314d10489da0937c3fb3ef67a89e087aca11deedafde39a67e27a79f794f",
+      "processing": "Published JPEG copied unchanged."
+    },
+    {
+      "file": "PIA22930.jpg",
+      "source": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia22/pia22930/PIA22930.jpg",
+      "dimensions": [
+        224,
+        96
+      ],
+      "bytes": 1527,
+      "sha256": "94222d58d6ec992e5a2667eee9145085eb89814adf9fa0ec5204c57de66f653a",
+      "processing": "Published JPEG copied unchanged."
+    }
+  ],
+  "upstream_panorama_sha256": "908f1ce88589fb8b36f590c747afa4153082fbb17270ed4b26f1546963c92192",
+  "reused_asset": {
+    "file": "../solar-assets/marte.jpg",
+    "source": "Unmodified texture already included in the user ZIP; artistic orbital scene only.",
+    "sha256": "4ce830118726b188c0b81b385fbf3e6349b80c1d0eb55e492d93d4a2b2e08f83"
+  },
+  "optional_editorial_overlay": {
+    "file": "PIA22909-reconstruccion-v2.webp",
+    "dimensions": [
+      4096,
+      915
+    ],
+    "bytes": 1894796,
+    "sha256": "31b80b5b660a291bfbfad675f5afaa420bd67cae58b16dc15d0c512e62b848f1",
+    "source": "PIA22909-4096.webp (included above); procedural sky and quilted soil textures from observed fragments.",
+    "processing": "Transparent lossless WebP; mask of large dark gaps plus a narrow feathered seam margin. Original photo files are unchanged. Artistic fill is not a scientific reconstruction or new NASA data."
+  }
+}

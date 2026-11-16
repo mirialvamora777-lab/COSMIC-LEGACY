@@ -1,0 +1,68 @@
+/* COSMIC LEGACY — isolated fullscreen extension for the solar system. */
+#sistema-solar .solar-fs-bar {
+  position:relative; z-index:6; display:flex; justify-content:flex-end;
+  align-items:center; padding:9px 16px; gap:10px;
+  border-bottom:1px solid rgba(164,192,234,.18); background:#0b1627;
+}
+#sistema-solar .solar-fs-toggle {
+  display:inline-flex; align-items:center; justify-content:center; gap:9px;
+  min-height:40px; padding:8px 13px; border:1px solid #d7b98b75;
+  background:#142238; color:#f0d6ae; border-radius:7px; cursor:pointer;
+  font:600 11px/1.35 Manrope,Arial,sans-serif; letter-spacing:.04em;
+  -webkit-tap-highlight-color:transparent;
+}
+#sistema-solar .solar-fs-toggle:hover { background:#26394f; border-color:#e4c99d; color:#fff; }
+#sistema-solar .solar-fs-toggle:focus-visible { outline:2px solid #f1d3a7; outline-offset:3px; }
+#sistema-solar .solar-fs-toggle svg { width:17px; height:17px; flex:none; }
+#sistema-solar .solar-fs-toggle .solar-fs-contract,
+#sistema-solar .solar-fs-toggle[aria-pressed="true"] .solar-fs-expand { display:none; }
+#sistema-solar .solar-fs-toggle[aria-pressed="true"] .solar-fs-contract { display:inline; }
+
+/* The existing stage, WebGL canvas, mission layer and planet controls are reused. */
+#sistema-solar.solar-fs-expanded {
+  display:flex; flex-direction:column; width:100%; height:100%; max-width:none;
+  max-height:none; min-width:0; min-height:0; margin:0;
+  padding:0; overflow:hidden; background:#070e1b; box-sizing:border-box;
+}
+#sistema-solar.solar-fs-expanded > .solar3d-head { display:none; }
+#sistema-solar.solar-fs-expanded > .solar3d-frame {
+  display:flex; flex-direction:column; flex:1 1 0; min-height:0; min-width:0;
+  width:100%; max-width:none; margin:0; border:0; border-radius:0; box-shadow:none;
+}
+#sistema-solar.solar-fs-expanded .solar-fs-bar {
+  flex:0 0 auto; padding-top:max(5px,env(safe-area-inset-top));
+  padding-right:max(12px,env(safe-area-inset-right));
+  padding-left:max(12px,env(safe-area-inset-left)); padding-bottom:5px;
+}
+#sistema-solar.solar-fs-expanded .solar3d-stage { height:auto; flex:1 1 0; min-height:0; width:100%; }
+#sistema-solar.solar-fs-expanded .lc-map-hint { flex:0 0 auto; margin:5px 12px; font-size:11px; line-height:1.4; }
+#sistema-solar.solar-fs-expanded .solar3d-planets { flex:0 0 auto; padding:7px 12px; gap:5px; }
+#sistema-solar.solar-fs-expanded > .solar3d-disclaimer {
+  flex:0 0 auto; width:100%; max-width:none; margin:0; padding:3px 12px;
+  padding-bottom:max(3px,env(safe-area-inset-bottom)); text-align:center;
+  font-size:10px; line-height:1.4; background:#081324;
+}
+/* Fallback: use the visible viewport on browsers without element fullscreen. */
+html.solar-fs-scroll-lock, body.solar-fs-scroll-lock { overflow:hidden!important; overscroll-behavior:none; }
+body.solar-fs-scroll-lock main { z-index:8000; }
+#sistema-solar.solar-fs-fallback {
+  position:fixed; inset:0; z-index:8500; width:100%; height:100vh; height:100dvh;
+}
+@media(max-width:760px) {
+  #sistema-solar .solar-fs-bar { padding:6px 10px; }
+  #sistema-solar .solar-fs-toggle { min-height:44px; }
+  #sistema-solar.solar-fs-expanded .solar3d-planets { justify-content:flex-start; flex-wrap:nowrap; overflow-x:auto; overscroll-behavior-x:contain; }
+  #sistema-solar.solar-fs-expanded .solar3d-planets button { flex:none; }
+}
+@media(max-height:500px) and (orientation:landscape) {
+  #sistema-solar.solar-fs-expanded .solar-fs-toggle { min-height:32px; padding:4px 10px; }
+  #sistema-solar.solar-fs-expanded .solar3d-toolbar { display:flex; flex-wrap:wrap; top:5px; left:8px; right:8px; gap:4px; }
+  #sistema-solar.solar-fs-expanded .solar3d-toolbar :is(button,a) { min-height:30px; padding:4px 8px; font-size:10px; }
+  #sistema-solar.solar-fs-expanded .solar3d-toolbar .solar3d-selected { margin-left:auto; }
+  #sistema-solar.solar-fs-expanded .xp-layer .xp-archive { top:44px; left:8px; right:8px; }
+  #sistema-solar.solar-fs-expanded .xp-layer .xp-archive button { min-height:28px; padding:4px 8px; }
+  #sistema-solar.solar-fs-expanded .solar3d-planets { justify-content:flex-start; flex-wrap:nowrap; overflow-x:auto; padding:4px 8px; }
+  #sistema-solar.solar-fs-expanded .solar3d-planets button { min-height:30px; flex:none; padding:5px 9px; }
+  #sistema-solar.solar-fs-expanded .lc-map-hint { font-size:10px; margin:2px 8px; }
+  #sistema-solar.solar-fs-expanded .solar3d-bottom { bottom:5px; }
+}

@@ -1,0 +1,26 @@
+{
+  "syntax_files": 13,
+  "local_html_references": 86,
+  "glb_validated": 16,
+  "visual_files_hash_verified": 36,
+  "image_files_decoded": 20,
+  "simulation": {
+    "branches": 971,
+    "final": 652
+  },
+  "full_browser_navigation": "blocked by environment",
+  "public_url": "could not be accessed from this environment",
+  "external_model_viewer": "not tested",
+  "webgl": "disabled in isolated Chromium test; fallback implemented",
+  "source_links_checked": 23,
+  "notes": "Technical file validation does not certify all rights or contest eligibility.",
+  "credits_render_test": {
+    "viewports_px": [
+      1366,
+      390
+    ],
+    "horizontal_overflow": false,
+    "spanish_and_english_title_switch": true,
+    "scope": "Isolated credits section with real project CSS in Chromium"
+  }
+}

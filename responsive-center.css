@@ -1,0 +1,63 @@
+/* COSMIC LEGACY | independent, shared responsive alignment layer. */
+:root{--cl-gutter:clamp(16px,4vw,56px);--cl-max:1250px;--cl-content:min(var(--cl-max),calc(100% - 2 * var(--cl-gutter)))}
+html,body{margin-inline:0;max-width:100%;overflow-x:hidden}
+body>main{width:100%;min-width:0;margin-inline:auto;overflow-x:clip}
+/* Keep the atmospheric decoration within the viewport without changing the content. */
+body>.asteroid-belt{width:90%;max-width:90%;left:5%;right:auto}
+body>.distant-nebula{max-width:85%}
+/* A single visual axis for the editorial panels, mission cards and solar viewer. */
+main>.hero,main>.ce-section,main>.lc-learning-route,main>.lc-science-gallery,main>.lc-credits,main>#echo-protocol{width:var(--cl-content);max-width:var(--cl-max);margin-inline:auto;min-width:0}
+main>.hero,main>.ce-section{padding-inline:0}
+main>.hero{grid-template-columns:minmax(0,1.12fr) minmax(0,.88fr);gap:clamp(24px,4vw,60px);justify-content:center;min-height:clamp(510px,72vh,680px)}
+main>.hero .hero-copy{max-width:100%}
+main>.hero .lc-hero-photo{justify-self:center;width:100%;max-width:470px;margin-inline:auto}
+main>.hero h1{font-size:clamp(56px,8.25vw,118px)}
+main>.hero .hero-note{right:0}
+main>.hero .fusion-hero-actions,main>.hero .fusion-hero-stats{flex-wrap:wrap;max-width:100%}
+main>.hero .fusion-hero-actions>*{max-width:100%;white-space:normal}
+main>#vehiculos,main>#explorar,main>#sistema-solar:not(.solar-fs-expanded){padding-inline:var(--cl-gutter);min-width:0}
+main>#vehiculos>:is(.section-heading,.lc-progress,.lc-bridge-feature,.lc-bridge-filters,.vehicle-grid),main>#explorar>:is(.section-heading,.planet-grid,.scroll-hint),main>#sistema-solar:not(.solar-fs-expanded)>:is(.solar3d-head,.solar3d-frame,.solar3d-disclaimer){width:100%;min-width:0;max-width:var(--cl-max);margin-inline:auto}
+main>#echo-protocol>.section-heading{max-width:none;margin-inline:0}
+main .ce-hero>figure{margin-inline:auto}
+main .ce-hero>div,main .ce-hero figure,main .ce-grid>*,main .ce-guide>*,main .lc-credit-context>*,main .lc-gallery-grid>*,main .echo-story>*{min-width:0}
+main .ce-section a,main .lc-credits a,main .lc-science-gallery a{overflow-wrap:anywhere}
+body>.topbar,body>footer{padding-inline:max(var(--cl-gutter),calc((100% - var(--cl-max))/2));width:100%;min-width:0;gap:clamp(8px,1.6vw,24px)}
+body>.topbar>.brand{flex-shrink:0}
+body>.topbar>nav{gap:clamp(10px,1.65vw,24px);min-width:0;align-items:center;justify-content:center}
+body>.topbar>nav>a{white-space:nowrap;letter-spacing:.12em}
+body>.topbar>.edition{white-space:nowrap}
+body>.topbar>.lc-language-switch{flex-shrink:0}
+body>footer{flex-wrap:wrap;overflow-wrap:anywhere}
+@media(max-width:1100px){
+ body>.topbar{height:auto;min-height:66px;padding-block:8px;flex-wrap:wrap}
+ body>.topbar>nav{display:none}
+ body>.topbar>.edition{display:none}
+ body>.topbar>.brand{flex:1 1 auto;min-width:0;white-space:normal;letter-spacing:.1em;gap:6px}
+ body>.topbar>.lc-language-switch{order:4;min-height:44px}
+ body>.topbar>.ce-mobile{display:block;order:6;flex:0 0 auto}
+ body>.topbar>.ce-mobile nav{display:grid!important;gap:4px;position:absolute;top:100%;inset-inline:var(--cl-gutter);padding:12px;background:#101a29;border:1px solid #d7b98b55;border-radius:10px;box-shadow:0 16px 30px #0008;max-height:75dvh;overflow:auto;z-index:12}
+ body>.topbar>.ce-mobile nav[hidden]{display:none!important}
+ body>.topbar>.ce-mobile nav a{display:flex;justify-content:flex-start;min-height:44px;text-align:left;padding:10px 12px;font-size:13px;letter-spacing:.03em}
+}
+@media(max-width:860px){
+ main>.hero{grid-template-columns:minmax(0,1fr);min-height:0;height:auto;max-height:none;text-align:center;padding-block:48px 62px;gap:26px}
+ main>.hero .hero-copy{text-align:center;margin:0;padding:0}
+ main>.hero h1{font-size:clamp(48px,12vw,88px)}
+ main>.hero .tagline{margin-inline:auto}
+ main>.hero .fusion-hero-actions,main>.hero .fusion-hero-stats{justify-content:center}
+ main>.hero .lc-hero-photo{max-width:400px}
+ main>.hero .hero-note{display:none}
+}
+@media(max-width:760px){
+ main>#sistema-solar>.solar3d-head,main>#sistema-solar>.solar3d-disclaimer{padding-inline:0}
+ main>.ce-section{padding-inline:0}
+ main .ce-hero>figure{width:min(100%,480px)}
+ main .ce-hero img{width:100%;object-fit:cover}
+ main .section-heading,main .solar3d-head{min-width:0;overflow-wrap:anywhere}
+ main .lc-bridge-copy{min-width:0;max-width:100%}
+ body>footer{justify-content:center;text-align:center}
+}
+@media(max-width:360px){body>.topbar{gap:5px}body>.topbar>.brand{font-size:11px}.lc-teams .fusion-ship .vehicle-card h3{overflow-wrap:anywhere}main>.hero h1{font-size:clamp(44px,14vw,56px)}}
+/* The NASA Ingenuity illustration uses its native landscape ratio. */
+main .ce-hero img[src$="PIA23720.png"]{aspect-ratio:1062/590;object-fit:contain;object-position:center}
+main .lc-credit-evidence img[src$="PIA23720.png"]{aspect-ratio:1062/590;object-fit:contain;object-position:center}
